@@ -11,3 +11,5 @@ specify parameters in config file
 
 1. python main.py
 2. python make_gif.py
+
+<img src="test_run_260310/scheduling_progression_test_run_260310_1730.gif" width="600">
