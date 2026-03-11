@@ -1,0 +1,35 @@
+--- ITERATION 22 ---
+Timestamp: 12.0
+
+=== MACHINES STATES ===
+- Machine 0: status=Available, contention=11
+- Machine 1: status=Busy, contention=21
+- Machine 2: status=Busy, contention=15
+- Machine 3: status=Available, contention=8
+- Machine 4: status=Available, contention=4
+- Machine 5: status=Busy, contention=15
+
+=== EMERGENCY JOBS ===
+- None
+
+=== STRATEGIC EXPERIENCE ===
+Strategic Experience: None available for this step.
+
+=== READY OPERATIONS ===
+- Job 8, Op 3: rem_work=12, flexibility=1, [EMERGENCY]=False
+
+=== CANDIDATE ACTIONS (JSON) ===
+[
+  {
+    "job": 8,
+    "op": 3,
+    "machine": 0
+  }
+]
+
+=== FULL LLM RESPONSE ===
+{
+  "job": 8,
+  "op": 3,
+  "machine": 0
+}
