@@ -1,0 +1,39 @@
+--- PROBLEM FILE: brandimarte/mk01.json ---
+--- ITERATION 53 ---
+Timestamp: 36.0
+
+=== MACHINES STATES ===
+- Machine 0: status=Busy     , free_at=37.0, wait_time=1.0, contention=2, occupying_job=9, occupying_op=5
+- Machine 1: status=Busy     , free_at=42.0, wait_time=6.0, contention=1, occupying_job=8, occupying_op=5
+- Machine 2: status=Available, free_at=35.0, wait_time=0.0, contention=1
+- Machine 3: status=Busy     , free_at=40.0, wait_time=4.0, contention=1, occupying_job=7, occupying_op=4
+- Machine 4: status=Available, free_at=36.0, wait_time=0.0, contention=0
+- Machine 5: status=Available, free_at=28.0, wait_time=0.0, contention=2
+
+=== EMERGENCY JOBS ===
+- None
+
+=== STRATEGIC EXPERIENCE ===
+Strategic Experience: None available for this step.
+
+=== READY OPERATIONS ===
+- Job 5, Op 4: est=36.0, min_pt=1, rem_work=3, flexibility=3, [EMERGENCY]=False
+
+=== CANDIDATE ACTIONS (JSON) ===
+[
+  {
+    "job": 5,
+    "op": 4,
+    "machine": 5,
+    "processing_time": 5
+  }
+]
+
+=== FULL LLM RESPONSE ===
+{
+  "job": 5,
+  "op": 4,
+  "machine": 5
+}
+Response Time: 0:01:01.629722
+Iteration Time: 0:01:01.635395
