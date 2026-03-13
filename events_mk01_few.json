@@ -1,0 +1,17 @@
+[
+    {
+        "timestamp": 15.0,
+        "event_type": "Machine_Breakdown",
+        "data": {"machine_id": 0, "repair_time": 25.0}
+    },
+    {
+        "timestamp": 25.0,
+        "event_type": "Machine_Repair",
+        "data": {"machine_id": 0}
+    },
+    {
+        "timestamp": 10.0,
+        "event_type": "Job_Emergency",
+        "data": {"job_id": 2}
+    }
+]

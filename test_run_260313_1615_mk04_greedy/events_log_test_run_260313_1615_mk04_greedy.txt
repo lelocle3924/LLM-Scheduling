@@ -1,0 +1,188 @@
+[Time:   0.00] Action_Executed           | Job 1, Op 0 -> Mach 5
+[Time:   0.00] Action_Executed           | Job 3, Op 0 -> Mach 6
+[Time:   0.00] Action_Executed           | Job 11, Op 0 -> Mach 3
+[Time:   0.00] Action_Executed           | Job 6, Op 0 -> Mach 4
+[Time:   0.00] Action_Executed           | Job 0, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 10, Op 0 -> Mach 2
+[Time:   1.00] Operation_Completion      | {'job_id': 1, 'op_id': 0, 'machine_id': 5}
+[Time:   1.00] Action_Executed           | Job 1, Op 1 -> Mach 5
+[Time:   2.00] Operation_Completion      | {'job_id': 3, 'op_id': 0, 'machine_id': 6}
+[Time:   2.00] Action_Executed           | Job 2, Op 0 -> Mach 5
+[Time:   2.00] Action_Executed           | Job 4, Op 0 -> Mach 6
+[Time:   2.00] Action_Executed           | Job 7, Op 0 -> Mach 3
+[Time:   2.00] Operation_Completion      | {'job_id': 11, 'op_id': 0, 'machine_id': 3}
+[Time:   2.00] Operation_Completion      | {'job_id': 1, 'op_id': 1, 'machine_id': 5}
+[Time:   3.00] Operation_Completion      | {'job_id': 2, 'op_id': 0, 'machine_id': 5}
+[Time:   3.00] Action_Executed           | Job 11, Op 1 -> Mach 5
+[Time:   3.00] Action_Executed           | Job 2, Op 1 -> Mach 1
+[Time:   4.00] Operation_Completion      | {'job_id': 4, 'op_id': 0, 'machine_id': 6}
+[Time:   4.00] Action_Executed           | Job 5, Op 0 -> Mach 5
+[Time:   4.00] Action_Executed           | Job 4, Op 1 -> Mach 6
+[Time:   4.00] Operation_Completion      | {'job_id': 11, 'op_id': 1, 'machine_id': 5}
+[Time:   5.00] Operation_Completion      | {'job_id': 6, 'op_id': 0, 'machine_id': 4}
+[Time:   5.00] Action_Executed           | Job 9, Op 0 -> Mach 4
+[Time:   6.00] Operation_Completion      | {'job_id': 0, 'op_id': 0, 'machine_id': 0}
+[Time:   6.00] Action_Executed           | Job 12, Op 0 -> Mach 5
+[Time:   6.00] Action_Executed           | Job 0, Op 1 -> Mach 0
+[Time:   6.00] Operation_Completion      | {'job_id': 2, 'op_id': 1, 'machine_id': 1}
+[Time:   6.00] Operation_Completion      | {'job_id': 5, 'op_id': 0, 'machine_id': 5}
+[Time:   7.00] Operation_Completion      | {'job_id': 7, 'op_id': 0, 'machine_id': 3}
+[Time:   7.00] Action_Executed           | Job 2, Op 2 -> Mach 3
+[Time:   8.00] Operation_Completion      | {'job_id': 12, 'op_id': 0, 'machine_id': 5}
+[Time:   8.00] Action_Executed           | Job 7, Op 1 -> Mach 5
+[Time:   9.00] Operation_Completion      | {'job_id': 10, 'op_id': 0, 'machine_id': 2}
+[Time:   9.00] Action_Executed           | Job 5, Op 1 -> Mach 2
+[Time:  10.00] Job_Emergency             | {'job_id': 2}
+[Time:  10.00] Action_Executed           | Job 12, Op 1 -> Mach 2
+[Time:  10.00] Action_Executed           | Job 13, Op 0 -> Mach 4
+[Time:  10.00] Operation_Completion      | {'job_id': 9, 'op_id': 0, 'machine_id': 4}
+[Time:  10.00] Operation_Completion      | {'job_id': 5, 'op_id': 1, 'machine_id': 2}
+[Time:  11.00] Operation_Completion      | {'job_id': 2, 'op_id': 2, 'machine_id': 3}
+[Time:  11.00] Action_Executed           | Job 2, Op 3 -> Mach 3
+[Time:  11.00] Action_Executed           | Job 5, Op 2 -> Mach 2
+[Time:  11.00] Operation_Completion      | {'job_id': 12, 'op_id': 1, 'machine_id': 2}
+[Time:  12.00] Operation_Completion      | {'job_id': 0, 'op_id': 1, 'machine_id': 0}
+[Time:  12.00] Action_Executed           | Job 1, Op 2 -> Mach 0
+[Time:  13.00] Operation_Completion      | {'job_id': 4, 'op_id': 1, 'machine_id': 6}
+[Time:  13.00] Action_Executed           | Job 0, Op 2 -> Mach 2
+[Time:  13.00] Action_Executed           | Job 4, Op 2 -> Mach 3
+[Time:  13.00] Operation_Completion      | {'job_id': 2, 'op_id': 3, 'machine_id': 3}
+[Time:  13.00] Operation_Completion      | {'job_id': 5, 'op_id': 2, 'machine_id': 2}
+[Time:  14.00] Operation_Completion      | {'job_id': 0, 'op_id': 2, 'machine_id': 2}
+[Time:  14.00] Action_Executed           | Job 0, Op 3 -> Mach 6
+[Time:  14.00] Action_Executed           | Job 2, Op 4 -> Mach 2
+[Time:  15.00] Machine_Breakdown         | {'machine_id': 0, 'repair_time': 25.0, 'interrupted_job': 1, 'interrupted_op': 2}
+[Time:  15.00] Action_Executed           | Job 5, Op 3 -> Mach 5
+[Time:  15.00] Action_Executed           | Job 14, Op 0 -> Mach 4
+[Time:  15.00] Machine_Breakdown         | {'machine_id': 2, 'repair_time': 25.0, 'interrupted_job': 2, 'interrupted_op': 4}
+[Time:  15.00] Operation_Completion      | {'job_id': 7, 'op_id': 1, 'machine_id': 5}
+[Time:  15.00] Action_Executed           | Job 7, Op 2 -> Mach 1
+[Time:  15.00] Operation_Completion      | {'job_id': 13, 'op_id': 0, 'machine_id': 4}
+[Time:  16.00] Operation_Completion      | {'job_id': 5, 'op_id': 3, 'machine_id': 5}
+[Time:  16.00] Action_Executed           | Job 12, Op 2 -> Mach 5
+[Time:  17.00] Operation_Completion      | {'job_id': 4, 'op_id': 2, 'machine_id': 3}
+[Time:  17.00] Action_Executed           | Job 13, Op 1 -> Mach 5
+[Time:  17.00] Action_Executed           | Job 5, Op 4 -> Mach 3
+[Time:  17.00] Action_Executed           | Job 4, Op 3 -> Mach 7
+[Time:  17.00] Operation_Completion      | {'job_id': 12, 'op_id': 2, 'machine_id': 5}
+[Time:  18.00] Machine_Breakdown         | {'machine_id': 5, 'repair_time': 30.0, 'interrupted_job': 13, 'interrupted_op': 1}
+[Time:  18.00] Operation_Completion      | {'job_id': 7, 'op_id': 2, 'machine_id': 1}
+[Time:  19.00] Operation_Completion      | {'job_id': 0, 'op_id': 3, 'machine_id': 6}
+[Time:  22.00] Operation_Completion      | {'job_id': 14, 'op_id': 0, 'machine_id': 4}
+[Time:  22.00] Action_Executed           | Job 14, Op 1 -> Mach 6
+[Time:  22.00] Action_Executed           | Job 12, Op 3 -> Mach 4
+[Time:  22.00] Operation_Completion      | {'job_id': 5, 'op_id': 4, 'machine_id': 3}
+[Time:  24.00] Operation_Completion      | {'job_id': 14, 'op_id': 1, 'machine_id': 6}
+[Time:  25.00] Machine_Repair            | {'machine_id': 0, 'resumed_job': 1, 'resumed_op': 2}
+[Time:  25.00] Machine_Repair            | {'machine_id': 2, 'resumed_job': 2, 'resumed_op': 4}
+[Time:  26.00] Operation_Completion      | {'job_id': 4, 'op_id': 3, 'machine_id': 7}
+[Time:  26.00] Action_Executed           | Job 0, Op 4 -> Mach 7
+[Time:  27.00] Operation_Completion      | {'job_id': 12, 'op_id': 3, 'machine_id': 4}
+[Time:  28.00] Operation_Completion      | {'job_id': 1, 'op_id': 2, 'machine_id': 0}
+[Time:  28.00] Action_Executed           | Job 3, Op 1 -> Mach 0
+[Time:  30.00] Machine_Repair            | {'machine_id': 5, 'resumed_job': 13, 'resumed_op': 1}
+[Time:  30.00] Action_Executed           | Job 7, Op 3 -> Mach 5
+[Time:  30.00] Operation_Completion      | {'job_id': 13, 'op_id': 1, 'machine_id': 5}
+[Time:  30.00] Action_Executed           | Job 13, Op 2 -> Mach 3
+[Time:  31.00] Operation_Completion      | {'job_id': 2, 'op_id': 4, 'machine_id': 2}
+[Time:  31.00] Action_Executed           | Job 1, Op 3 -> Mach 2
+[Time:  32.00] Operation_Completion      | {'job_id': 7, 'op_id': 3, 'machine_id': 5}
+[Time:  32.00] Action_Executed           | Job 2, Op 5 -> Mach 2
+[Time:  32.00] Action_Executed           | Job 7, Op 4 -> Mach 5
+[Time:  32.00] Operation_Completion      | {'job_id': 13, 'op_id': 2, 'machine_id': 3}
+[Time:  32.00] Operation_Completion      | {'job_id': 1, 'op_id': 3, 'machine_id': 2}
+[Time:  32.00] Action_Executed           | Job 1, Op 4 -> Mach 1
+[Time:  33.00] Operation_Completion      | {'job_id': 2, 'op_id': 5, 'machine_id': 2}
+[Time:  33.00] Action_Executed           | Job 4, Op 4 -> Mach 2
+[Time:  33.00] Operation_Completion      | {'job_id': 7, 'op_id': 4, 'machine_id': 5}
+[Time:  33.00] Action_Executed           | Job 7, Op 5 -> Mach 6
+[Time:  34.00] Operation_Completion      | {'job_id': 3, 'op_id': 1, 'machine_id': 0}
+[Time:  34.00] Action_Executed           | Job 3, Op 2 -> Mach 0
+[Time:  35.00] Operation_Completion      | {'job_id': 0, 'op_id': 4, 'machine_id': 7}
+[Time:  35.00] Action_Executed           | Job 0, Op 5 -> Mach 1
+[Time:  35.00] Action_Executed           | Job 5, Op 5 -> Mach 7
+[Time:  35.00] Operation_Completion      | {'job_id': 1, 'op_id': 4, 'machine_id': 1}
+[Time:  35.00] Action_Executed           | Job 1, Op 5 -> Mach 5
+[Time:  37.00] Operation_Completion      | {'job_id': 1, 'op_id': 5, 'machine_id': 5}
+[Time:  38.00] Operation_Completion      | {'job_id': 0, 'op_id': 5, 'machine_id': 1}
+[Time:  38.00] Action_Executed           | Job 0, Op 6 -> Mach 4
+[Time:  40.00] Operation_Completion      | {'job_id': 4, 'op_id': 4, 'machine_id': 2}
+[Time:  40.00] Action_Executed           | Job 4, Op 5 -> Mach 2
+[Time:  40.00] Action_Executed           | Job 8, Op 0 -> Mach 0
+[Time:  40.00] Operation_Completion      | {'job_id': 3, 'op_id': 2, 'machine_id': 0}
+[Time:  40.00] Action_Executed           | Job 3, Op 3 -> Mach 5
+[Time:  42.00] Operation_Completion      | {'job_id': 7, 'op_id': 5, 'machine_id': 6}
+[Time:  42.00] Action_Executed           | Job 1, Op 6 -> Mach 6
+[Time:  42.00] Action_Executed           | Job 6, Op 1 -> Mach 2
+[Time:  42.00] Operation_Completion      | {'job_id': 4, 'op_id': 5, 'machine_id': 2}
+[Time:  42.00] Action_Executed           | Job 4, Op 6 -> Mach 3
+[Time:  43.00] Operation_Completion      | {'job_id': 0, 'op_id': 6, 'machine_id': 4}
+[Time:  44.00] Operation_Completion      | {'job_id': 5, 'op_id': 5, 'machine_id': 7}
+[Time:  44.00] Action_Executed           | Job 14, Op 2 -> Mach 7
+[Time:  44.00] Operation_Completion      | {'job_id': 1, 'op_id': 6, 'machine_id': 6}
+[Time:  46.00] Operation_Completion      | {'job_id': 8, 'op_id': 0, 'machine_id': 0}
+[Time:  46.00] Action_Executed           | Job 8, Op 1 -> Mach 0
+[Time:  47.00] Operation_Completion      | {'job_id': 3, 'op_id': 3, 'machine_id': 5}
+[Time:  47.00] Action_Executed           | Job 0, Op 7 -> Mach 5
+[Time:  47.00] Action_Executed           | Job 3, Op 4 -> Mach 3
+[Time:  47.00] Operation_Completion      | {'job_id': 4, 'op_id': 6, 'machine_id': 3}
+[Time:  48.00] Operation_Completion      | {'job_id': 0, 'op_id': 7, 'machine_id': 5}
+[Time:  49.00] Operation_Completion      | {'job_id': 6, 'op_id': 1, 'machine_id': 2}
+[Time:  49.00] Action_Executed           | Job 6, Op 2 -> Mach 5
+[Time:  49.00] Action_Executed           | Job 5, Op 6 -> Mach 2
+[Time:  50.00] Operation_Completion      | {'job_id': 6, 'op_id': 2, 'machine_id': 5}
+[Time:  50.00] Action_Executed           | Job 6, Op 3 -> Mach 5
+[Time:  52.00] Operation_Completion      | {'job_id': 8, 'op_id': 1, 'machine_id': 0}
+[Time:  52.00] Action_Executed           | Job 8, Op 2 -> Mach 3
+[Time:  52.00] Action_Executed           | Job 9, Op 1 -> Mach 0
+[Time:  52.00] Operation_Completion      | {'job_id': 3, 'op_id': 4, 'machine_id': 3}
+[Time:  52.00] Operation_Completion      | {'job_id': 6, 'op_id': 3, 'machine_id': 5}
+[Time:  52.00] Action_Executed           | Job 6, Op 4 -> Mach 5
+[Time:  53.00] Operation_Completion      | {'job_id': 14, 'op_id': 2, 'machine_id': 7}
+[Time:  53.00] Action_Executed           | Job 14, Op 3 -> Mach 1
+[Time:  56.00] Operation_Completion      | {'job_id': 5, 'op_id': 6, 'machine_id': 2}
+[Time:  56.00] Operation_Completion      | {'job_id': 8, 'op_id': 2, 'machine_id': 3}
+[Time:  56.00] Action_Executed           | Job 8, Op 3 -> Mach 2
+[Time:  56.00] Operation_Completion      | {'job_id': 14, 'op_id': 3, 'machine_id': 1}
+[Time:  56.00] Action_Executed           | Job 14, Op 4 -> Mach 6
+[Time:  57.00] Operation_Completion      | {'job_id': 14, 'op_id': 4, 'machine_id': 6}
+[Time:  58.00] Operation_Completion      | {'job_id': 9, 'op_id': 1, 'machine_id': 0}
+[Time:  58.00] Action_Executed           | Job 9, Op 2 -> Mach 6
+[Time:  58.00] Action_Executed           | Job 10, Op 1 -> Mach 0
+[Time:  59.00] Operation_Completion      | {'job_id': 6, 'op_id': 4, 'machine_id': 5}
+[Time:  59.00] Action_Executed           | Job 5, Op 7 -> Mach 5
+[Time:  60.00] Operation_Completion      | {'job_id': 9, 'op_id': 2, 'machine_id': 6}
+[Time:  60.00] Action_Executed           | Job 9, Op 3 -> Mach 3
+[Time:  60.00] Operation_Completion      | {'job_id': 5, 'op_id': 7, 'machine_id': 5}
+[Time:  60.00] Action_Executed           | Job 5, Op 8 -> Mach 6
+[Time:  64.00] Operation_Completion      | {'job_id': 10, 'op_id': 1, 'machine_id': 0}
+[Time:  64.00] Action_Executed           | Job 10, Op 2 -> Mach 1
+[Time:  64.00] Action_Executed           | Job 11, Op 2 -> Mach 0
+[Time:  65.00] Operation_Completion      | {'job_id': 8, 'op_id': 3, 'machine_id': 2}
+[Time:  65.00] Action_Executed           | Job 8, Op 4 -> Mach 3
+[Time:  65.00] Operation_Completion      | {'job_id': 9, 'op_id': 3, 'machine_id': 3}
+[Time:  67.00] Operation_Completion      | {'job_id': 10, 'op_id': 2, 'machine_id': 1}
+[Time:  67.00] Action_Executed           | Job 10, Op 3 -> Mach 3
+[Time:  67.00] Operation_Completion      | {'job_id': 8, 'op_id': 4, 'machine_id': 3}
+[Time:  67.00] Action_Executed           | Job 8, Op 5 -> Mach 5
+[Time:  68.00] Operation_Completion      | {'job_id': 8, 'op_id': 5, 'machine_id': 5}
+[Time:  69.00] Operation_Completion      | {'job_id': 5, 'op_id': 8, 'machine_id': 6}
+[Time:  69.00] Action_Executed           | Job 8, Op 6 -> Mach 6
+[Time:  69.00] Operation_Completion      | {'job_id': 10, 'op_id': 3, 'machine_id': 3}
+[Time:  70.00] Operation_Completion      | {'job_id': 11, 'op_id': 2, 'machine_id': 0}
+[Time:  70.00] Action_Executed           | Job 9, Op 4 -> Mach 0
+[Time:  70.00] Action_Executed           | Job 11, Op 3 -> Mach 2
+[Time:  71.00] Operation_Completion      | {'job_id': 8, 'op_id': 6, 'machine_id': 6}
+[Time:  76.00] Operation_Completion      | {'job_id': 9, 'op_id': 4, 'machine_id': 0}
+[Time:  76.00] Action_Executed           | Job 14, Op 5 -> Mach 0
+[Time:  77.00] Operation_Completion      | {'job_id': 11, 'op_id': 3, 'machine_id': 2}
+[Time:  77.00] Action_Executed           | Job 8, Op 7 -> Mach 2
+[Time:  77.00] Action_Executed           | Job 11, Op 4 -> Mach 7
+[Time:  82.00] Operation_Completion      | {'job_id': 14, 'op_id': 5, 'machine_id': 0}
+[Time:  84.00] Operation_Completion      | {'job_id': 8, 'op_id': 7, 'machine_id': 2}
+[Time:  84.00] Action_Executed           | Job 8, Op 8 -> Mach 2
+[Time:  86.00] Operation_Completion      | {'job_id': 11, 'op_id': 4, 'machine_id': 7}
+[Time:  86.00] Action_Executed           | Job 11, Op 5 -> Mach 6
+[Time:  86.00] Operation_Completion      | {'job_id': 8, 'op_id': 8, 'machine_id': 2}
+[Time:  88.00] Operation_Completion      | {'job_id': 11, 'op_id': 5, 'machine_id': 6}
+[Time:  88.00] Simulation_Complete       | Total time: 0:00:00.123599

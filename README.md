@@ -8,8 +8,10 @@ specify parameters in config file
 - model name (can be found on OpenRouter)
 - session name
 - problem file
+- dynamic event file (optional)
 
-1. python main.py
-2. python make_gif.py
+1. python main.py (for LLM inference)
+   python mainsimp.py (for greedy inference)
+2. python simple_gantt.py
 
 <img src="test_run_260310/scheduling_progression_test_run_260310_1730.gif" width="600">
