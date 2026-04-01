@@ -1,0 +1,65 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Value_Estimation ---
+--- LATENCY: 5.65s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+21.0
+
+[machines_states]:
+- Machine 0: status=Available, free_at=16.0, wait_time=0.0, contention=7
+- Machine 1: status=Available, free_at=42.0, wait_time=21.0, contention=13
+- Machine 2: status=Available, free_at=24.0, wait_time=3.0, contention=9
+- Machine 3: status=Available, free_at=21.0, wait_time=0.0, contention=7
+- Machine 4: status=Available, free_at=16.0, wait_time=0.0, contention=2
+- Machine 5: status=Available, free_at=22.0, wait_time=1.0, contention=8
+
+[emergency_jobs]:
+- None
+
+[ready_operations]:
+- Job 1, Op 4: est=21.0, min_pt=1, rem_work=1, flexibility=3, is_critical=False, [EMERGENCY]=False
+- Job 1, Op 4: est=21.0, min_pt=1, rem_work=1, flexibility=3, is_critical=False, [EMERGENCY]=False
+- Job 1, Op 4: est=21.0, min_pt=1, rem_work=1, flexibility=3, is_critical=False, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "job": 1,
+    "op": 4,
+    "machine": 5,
+    "processing_time": 5,
+    "wait_time": 1.0,
+    "is_critical": false
+  },
+  {
+    "job": 1,
+    "op": 4,
+    "machine": 1,
+    "processing_time": 6,
+    "wait_time": 21.0,
+    "is_critical": false
+  },
+  {
+    "job": 1,
+    "op": 4,
+    "machine": 0,
+    "processing_time": 1,
+    "wait_time": 0.0,
+    "is_critical": false
+  }
+]
+
+[lower_bound]:
+42.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+The current state shows significant imbalance. Machine 1 is a severe bottleneck, with a `free_at` time of 42.0 (matching the absolute theoretical minimum makespan), meaning it is fully committed until the end of the project. The high contention (13) on this machine, combined with the idle status of Machines 0, 3, and 4, indicates poor load balancing. The cumulative wait time across the factory is 25.0 units, which is high relative to the remaining work.
+
+<score>
+0.3850
+</score>

@@ -1,0 +1,63 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Value_Estimation ---
+--- LATENCY: 2.68s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+3.0
+
+[machines_states]:
+- Machine 0: status=Available, free_at=5.0, wait_time=2.0, contention=16
+- Machine 1: status=Available, free_at=18.0, wait_time=15.0, contention=28
+- Machine 2: status=Available, free_at=14.0, wait_time=11.0, contention=24
+- Machine 3: status=Available, free_at=0.0, wait_time=0.0, contention=10
+- Machine 4: status=Available, free_at=3.0, wait_time=0.0, contention=5
+- Machine 5: status=Available, free_at=6.0, wait_time=3.0, contention=22
+
+[emergency_jobs]:
+- None
+
+[ready_operations]:
+- Job 4, Op 1: est=5.0, min_pt=1, rem_work=21, flexibility=3, is_critical=True, [EMERGENCY]=False
+- Job 4, Op 1: est=5.0, min_pt=1, rem_work=21, flexibility=3, is_critical=True, [EMERGENCY]=False
+- Job 4, Op 1: est=5.0, min_pt=1, rem_work=21, flexibility=3, is_critical=True, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "job": 4,
+    "op": 1,
+    "machine": 5,
+    "processing_time": 5,
+    "wait_time": 3.0,
+    "is_critical": true
+  },
+  {
+    "job": 4,
+    "op": 1,
+    "machine": 1,
+    "processing_time": 6,
+    "wait_time": 15.0,
+    "is_critical": true
+  },
+  {
+    "job": 4,
+    "op": 1,
+    "machine": 0,
+    "processing_time": 1,
+    "wait_time": 2.0,
+    "is_critical": true
+  }
+]
+
+[lower_bound]:
+26.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+<score>
+0.3200
+</score>

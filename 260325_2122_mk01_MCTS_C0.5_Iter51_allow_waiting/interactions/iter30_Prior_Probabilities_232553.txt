@@ -1,0 +1,61 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Prior_Probabilities ---
+--- LATENCY: 2.73s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+21.0
+
+[machines_states]:
+- Machine 0: status=Available, free_at=17.0, wait_time=0.0, contention=6
+- Machine 1: status=Available, free_at=36.0, wait_time=15.0, contention=13
+- Machine 2: status=Available, free_at=24.0, wait_time=3.0, contention=9
+- Machine 3: status=Available, free_at=27.0, wait_time=6.0, contention=8
+- Machine 4: status=Available, free_at=16.0, wait_time=0.0, contention=2
+- Machine 5: status=Available, free_at=23.0, wait_time=2.0, contention=6
+
+[emergency_jobs]:
+- None
+
+[ready_operations]:
+- Job 8, Op 5: est=27.0, min_pt=6, rem_work=6, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 8, Op 5: est=27.0, min_pt=6, rem_work=6, flexibility=2, is_critical=False, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "index": "0",
+    "job": 8,
+    "op": 5,
+    "machine": 1,
+    "processing_time": 6,
+    "start_time": 36.0,
+    "wait_time": 15.0
+  },
+  {
+    "index": "1",
+    "job": 8,
+    "op": 5,
+    "machine": 3,
+    "processing_time": 6,
+    "start_time": 27.0,
+    "wait_time": 6.0
+  }
+]
+
+[lower_bound]:
+39.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+```json
+{
+  "operation_scores": {
+    "0": 0.15,
+    "1": 0.85
+  }
+}
+```

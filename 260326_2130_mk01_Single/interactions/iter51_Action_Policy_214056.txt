@@ -1,0 +1,69 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Action_Policy ---
+--- LATENCY: 15.22s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+28.0
+
+[machines_states]:
+Machine States:
+- Machine 0: Available, Available from T=28.0, Contention: 2
+- Machine 1: Processing Job 7 (Op 3) | Queue: Job 5 (Op 3), Available from T=36.0, Contention: 4
+- Machine 2: Available, Available from T=28.0, Contention: 1
+- Machine 3: Processing Job 8 (Op 5), Available from T=30.0, Contention: 3
+- Machine 4: Available, Available from T=28.0, Contention: 0
+- Machine 5: Processing Job 0 (Op 5) | Queue: Job 3 (Op 4), Available from T=31.0, Contention: 2
+
+[emergency_jobs]:
+[]
+
+[ready_operations]:
+Ready Operations:
+- Job 4, Op 4: est=30.0, min_pt=6, rem_work=10.0, flexibility=2, is_critical=True, [EMERGENCY]=False
+- Job 4, Op 4: est=30.0, min_pt=6, rem_work=10.0, flexibility=2, is_critical=True, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "job": 4,
+    "op": 4,
+    "machine": 1,
+    "processing_time": 6,
+    "wait_time": 8.0,
+    "is_critical": true
+  },
+  {
+    "job": 4,
+    "op": 4,
+    "machine": 3,
+    "processing_time": 6,
+    "wait_time": 2.0,
+    "is_critical": true
+  }
+]
+
+[lower_bound]:
+39.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+To determine the best action, we evaluate the two candidates for Job 4, Op 4:
+
+1.  **Job 4, Op 4 on Machine 1**:
+    *   **Machine State**: Machine 1 has a high contention of 4. It is currently busy until T=36.0 and has a queue (Job 5, Op 3) waiting. Scheduling here would force Job 4 to wait until at least T=36.0 (plus the duration of the queued job).
+    *   **Efficiency**: This is a poor choice because it increases the wait time and adds to the congestion of a high-contention bottleneck.
+
+2.  **Job 4, Op 4 on Machine 3**:
+    *   **Machine State**: Machine 3 has a contention of 3. It is busy until T=30.0.
+    *   **Efficiency**: The operation has an `est` of 30.0. By choosing Machine 3, the operation can start exactly when the machine becomes free (T=30.0). This minimizes the idle time for the job and avoids the significant delay associated with Machine 1.
+    *   **Criticality**: Job 4 is marked as `is_critical=True`. Prioritizing its progression on the earliest available machine is essential to minimizing the makespan.
+
+**Conclusion**: Scheduling Job 4, Op 4 on Machine 3 is the optimal choice as it aligns with the job's earliest start time, avoids the high-contention queue on Machine 1, and keeps the critical job moving forward without unnecessary delay.
+
+```json
+{"job": 4, "op": 4, "machine": 3}
+```

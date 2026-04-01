@@ -1,0 +1,56 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Value_Estimation ---
+--- LATENCY: 4.04s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+27.0
+
+[machines_states]:
+- Machine 0: status=Available, free_at=24.0, wait_time=0.0, contention=4
+- Machine 1: status=Available, free_at=36.0, wait_time=9.0, contention=8
+- Machine 2: status=Available, free_at=33.0, wait_time=6.0, contention=5
+- Machine 3: status=Available, free_at=33.0, wait_time=6.0, contention=6
+- Machine 4: status=Available, free_at=16.0, wait_time=0.0, contention=1
+- Machine 5: status=Available, free_at=29.0, wait_time=2.0, contention=4
+
+[emergency_jobs]:
+- None
+
+[ready_operations]:
+- Job 9, Op 5: est=27.0, min_pt=2, rem_work=2, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 9, Op 5: est=27.0, min_pt=2, rem_work=2, flexibility=2, is_critical=False, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "job": 9,
+    "op": 5,
+    "machine": 0,
+    "processing_time": 3,
+    "wait_time": 0.0,
+    "is_critical": false
+  },
+  {
+    "job": 9,
+    "op": 5,
+    "machine": 3,
+    "processing_time": 2,
+    "wait_time": 6.0,
+    "is_critical": false
+  }
+]
+
+[lower_bound]:
+39.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+The current state shows significant imbalance. Machine 1 is heavily burdened with a `free_at` time of 36.0 (9 units of wait time), which is dangerously close to the theoretical makespan of 39.0. With a total contention of 28 across the factory and high idle times on machines 0 and 4, the load is poorly distributed. The proximity of the bottlenecked machines to the absolute lower bound indicates a high probability of schedule slippage.
+
+<score>
+0.4200
+</score>

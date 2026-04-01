@@ -1,0 +1,127 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Prior_Probabilities ---
+--- LATENCY: 3.42s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+0.0
+
+[machines_states]:
+- Machine 0: status=Available, free_at=1.0, wait_time=1.0, contention=18
+- Machine 1: status=Available, free_at=6.0, wait_time=6.0, contention=30
+- Machine 2: status=Available, free_at=0.0, wait_time=0.0, contention=25
+- Machine 3: status=Available, free_at=0.0, wait_time=0.0, contention=10
+- Machine 4: status=Available, free_at=3.0, wait_time=3.0, contention=7
+- Machine 5: status=Available, free_at=3.0, wait_time=3.0, contention=25
+
+[emergency_jobs]:
+- None
+
+[ready_operations]:
+- Job 0, Op 0: est=0.0, min_pt=4, rem_work=12, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 0, Op 0: est=0.0, min_pt=4, rem_work=12, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 2, Op 0: est=6.0, min_pt=6, rem_work=14, flexibility=1, is_critical=False, [EMERGENCY]=False
+- Job 6, Op 0: est=3.0, min_pt=1, rem_work=9, flexibility=1, is_critical=False, [EMERGENCY]=False
+- Job 7, Op 0: est=0.0, min_pt=2, rem_work=19, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 7, Op 0: est=0.0, min_pt=2, rem_work=19, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 9, Op 0: est=0.0, min_pt=2, rem_work=16, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 9, Op 0: est=0.0, min_pt=2, rem_work=16, flexibility=2, is_critical=False, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "index": "0",
+    "job": 0,
+    "op": 0,
+    "machine": 0,
+    "processing_time": 5,
+    "start_time": 1.0,
+    "wait_time": 1.0
+  },
+  {
+    "index": "1",
+    "job": 0,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 4,
+    "start_time": 0.0,
+    "wait_time": 0.0
+  },
+  {
+    "index": "2",
+    "job": 2,
+    "op": 0,
+    "machine": 1,
+    "processing_time": 6,
+    "start_time": 6.0,
+    "wait_time": 6.0
+  },
+  {
+    "index": "3",
+    "job": 6,
+    "op": 0,
+    "machine": 5,
+    "processing_time": 1,
+    "start_time": 3.0,
+    "wait_time": 3.0
+  },
+  {
+    "index": "4",
+    "job": 7,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 4,
+    "start_time": 0.0,
+    "wait_time": 0.0
+  },
+  {
+    "index": "5",
+    "job": 7,
+    "op": 0,
+    "machine": 5,
+    "processing_time": 2,
+    "start_time": 3.0,
+    "wait_time": 3.0
+  },
+  {
+    "index": "6",
+    "job": 9,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 4,
+    "start_time": 0.0,
+    "wait_time": 0.0
+  },
+  {
+    "index": "7",
+    "job": 9,
+    "op": 0,
+    "machine": 5,
+    "processing_time": 2,
+    "start_time": 3.0,
+    "wait_time": 3.0
+  }
+]
+
+[lower_bound]:
+24.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+```json
+{
+  "operation_scores": {
+    "0": 0.05,
+    "1": 0.25,
+    "2": 0.05,
+    "3": 0.15,
+    "4": 0.15,
+    "5": 0.10,
+    "6": 0.15,
+    "7": 0.10
+  }
+}
+```

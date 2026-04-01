@@ -1,0 +1,2412 @@
+=== Iteration 1 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J2O0->M1 ---
+[Machine States] M0: free, M1:J2O0, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J3O0: min_pt=1, rem_work=11.0, machine=[5, 1, 0], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J3O0->M1 ---
+[Machine States] M0: free, M1:J3O0, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J4O0->M1 ---
+[Machine States] M0: free, M1:J4O0, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J3O0: min_pt=1, rem_work=11.0, machine=[5, 1, 0], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 1 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J3O0->M1 ---
+[Machine States] M0: free, M1:J3O0, M2: free, M3: free, M4: free, M5:J8O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O0->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O0, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O0->M1 ---
+[Machine States] M0: free, M1:J2O0, M2:J4O0, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J3O0: min_pt=1, rem_work=11.0, machine=[5, 1, 0], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 1 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J3O0->M1 ---
+[Machine States] M0: free, M1:J3O0, M2:J0O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J3O0->M1 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J3O0->M1 ---
+[Machine States] M0: free, M1:J3O0, M2: free, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 2 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2: free, M3: free, M4: free, M5:J8O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O0->M1 ---
+[Machine States] M0: free, M1:J3O0,J2O0, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J8O0: min_pt=1, rem_work=17.0, machine=[5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 2 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J0O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2: free, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 2 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.64 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J8O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J0O0, M3: free, M4: free, M5:J8O0,J5O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 3 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J0O0->M2 ---
+[Machine States] M0: free, M1:J3O0, M2:J0O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J4O0->M2 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2: free, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 3 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J4O0->M2 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.64 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J0O0->M2 ---
+[Machine States] M0: free, M1:J3O0, M2:J0O0, M3: free, M4: free, M5:J8O0,J5O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J4O0: min_pt=1, rem_work=22.0, machine=[4, 2, 1], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 3 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J4O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J4O0->M2 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J4O0->M2 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 4 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J2O0->M1 ---
+[Machine States] M0: free, M1:J3O0,J2O0, M2:J4O0, M3: free, M4: free, M5:J8O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J9O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J9O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J6O0: min_pt=1, rem_work=9.0, machine=[5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+=== Iteration 4 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J6O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 4 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J6O0->M5 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J6O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 5 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J0O0->M0 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J1O0->M1 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.48 | First Action: J7O0->M2 ---
+[Machine States] M0: free, M1:J3O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 5 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J1O0->M1 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J7O0->M2 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J0O0: min_pt=4, rem_work=12.0, machine=[0, 2], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J0O0->M0 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 5 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O0->M0 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0: free, M1:J3O0,J1O0, M2:J4O0,J7O0,J0O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 6 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J7O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J5O0: min_pt=2, rem_work=17.0, machine=[2, 5], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 6 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 6 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J5O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 7 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 7 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J9O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J9O0: min_pt=2, rem_work=16.0, machine=[2, 5]
+
+=== Iteration 7 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+--- Beam 2 | Value: 0.41 | First Action: J9O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0,J7O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+--- Beam 3 | Value: 0.41 | First Action: J9O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0,J7O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1]
+
+=== Iteration 8 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J7O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1], J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+=== Iteration 8 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0,J7O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0,J7O0
+[Ready Operations] J1O0: min_pt=6, rem_work=16.0, machine=[1]
+
+=== Iteration 8 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J6O0,J9O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+--- Beam 2 | Value: 0.34 | First Action: J1O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J6O0,J9O0,J7O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+--- Beam 3 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J2O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J6O0,J9O0,J7O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+=== Iteration 9 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+--- Beam 2 | Value: 0.41 | First Action: J7O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0,J7O0
+[Ready Operations] J2O0: min_pt=6, rem_work=14.0, machine=[1]
+
+--- Beam 3 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J8O0,J6O0,J9O0
+[Ready Operations] J7O0: min_pt=2, rem_work=19.0, machine=[2, 5]
+
+=== Iteration 9 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J7O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J6O0,J9O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+--- Beam 2 | Value: 0.34 | First Action: J7O0->M5 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J6O0,J9O0,J7O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+--- Beam 3 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J6O0,J9O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+=== Iteration 9 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J7O0->M2 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J9O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.34 | First Action: J7O0->M2 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4:J8O1, M5:J9O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+--- Beam 3 | Value: 0.34 | First Action: J7O0->M5 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0, M3: free, M4: free, M5:J9O0,J7O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+=== Iteration 10 | Clock: 0.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J6O0,J9O0
+[Ready Operations] J8O1: min_pt=1, rem_work=16.0, machine=[0, 4]
+
+=== Iteration 10 | Clock: 0.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J9O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4:J8O1, M5:J9O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+=== Iteration 10 | Clock: 0.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0,J6O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4:J8O1, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J2O0->M1 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3:J6O1, M4: free, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+=== Iteration 11 | Clock: 1.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J8O1->M0 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5:J9O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.34 | First Action: J8O1->M4 ---
+[Machine States] M0:J0O0, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4:J8O1, M5:J9O0
+[Ready Operations] J6O1: min_pt=2, rem_work=8.0, machine=[0, 3]
+
+=== Iteration 11 | Clock: 1.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J8O1->M4 ---
+[Machine States] M0:J0O0,J6O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4:J8O1, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.34 | First Action: J8O1->M0 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O1->M0 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3:J6O1, M4: free, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+=== Iteration 11 | Clock: 1.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J8O1->M0 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0,J9O1, M3: free, M4: free, M5: free
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J8O1->M0 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.39 | First Action: J8O1->M0 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0,J9O1, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+=== Iteration 12 | Clock: 2.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J6O1->M0 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.34 | First Action: J6O1->M3 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0, M2:J4O0,J5O0,J7O0, M3:J6O1, M4: free, M5: free
+[Ready Operations] J9O1: min_pt=4, rem_work=14.0, machine=[2, 1, 5]
+
+=== Iteration 12 | Clock: 2.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J6O1->M0 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0,J9O1, M3: free, M4: free, M5: free
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J6O1->M0 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.39 | First Action: J6O1->M3 ---
+[Machine States] M0:J0O0,J8O1, M1:J3O0,J1O0,J2O0,J9O1, M2:J4O0,J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+=== Iteration 12 | Clock: 2.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J6O1->M0 ---
+[Machine States] M0:J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.34 | First Action: J6O1->M0 ---
+[Machine States] M0:J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0,J9O1, M3: free, M4: free, M5:J4O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.34 | First Action: J6O1->M0 ---
+[Machine States] M0:J8O1,J6O1,J4O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0,J9O1, M3: free, M4: free, M5: free
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+=== Iteration 13 | Clock: 4.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J9O1->M2 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0,J9O1, M3: free, M4: free, M5: free
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J9O1->M5 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.32 | First Action: J9O1->M1 ---
+[Machine States] M0:J0O0,J8O1,J6O1, M1:J3O0,J1O0,J2O0,J9O1, M2:J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J4O1: min_pt=1, rem_work=21.0, machine=[5, 1, 0]
+
+=== Iteration 13 | Clock: 4.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J9O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.39 | First Action: J9O1->M1 ---
+[Machine States] M0:J8O1,J6O1,J4O1, M1:J3O0,J1O0,J2O0,J9O1, M2:J5O0,J7O0, M3: free, M4: free, M5: free
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.34 | First Action: J9O1->M2 ---
+[Machine States] M0:J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0,J9O1, M3: free, M4: free, M5:J4O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+=== Iteration 13 | Clock: 4.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0, M2:J5O0,J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J9O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+--- Beam 3 | Value: 0.34 | First Action: J9O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0,J0O1, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+=== Iteration 14 | Clock: 5.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J4O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.34 | First Action: J4O1->M1 ---
+[Machine States] M0:J8O1,J6O1, M1:J3O0,J1O0,J2O0,J4O1, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.34 | First Action: J4O1->M0 ---
+[Machine States] M0:J8O1,J6O1,J4O1, M1:J3O0,J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1
+[Ready Operations] J0O1: min_pt=1, rem_work=8.0, machine=[4, 2, 1]
+
+=== Iteration 14 | Clock: 5.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J4O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0, M2:J5O0,J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J4O1->M5 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+--- Beam 3 | Value: 0.39 | First Action: J4O1->M1 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0,J4O1, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+=== Iteration 14 | Clock: 5.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J4O1->M5 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1,J4O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+--- Beam 2 | Value: 0.32 | First Action: J4O1->M5 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J5O0,J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+--- Beam 3 | Value: 0.32 | First Action: J4O1->M1 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J4O1,J3O1, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+=== Iteration 15 | Clock: 5.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O1->M2 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0, M2:J5O0,J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J0O1->M4 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+--- Beam 3 | Value: 0.34 | First Action: J0O1->M1 ---
+[Machine States] M0:J8O1,J6O1, M1:J1O0,J2O0,J0O1, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J3O1: min_pt=6, rem_work=10.0, machine=[1]
+
+=== Iteration 15 | Clock: 5.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J0O1->M4 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J5O0,J7O0, M3: free, M4:J0O1, M5:J9O1,J4O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+--- Beam 2 | Value: 0.32 | First Action: J0O1->M2 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J5O0,J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+--- Beam 3 | Value: 0.32 | First Action: J0O1->M1 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J0O1,J3O1, M2:J5O0,J7O0, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+=== Iteration 15 | Clock: 5.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J0O1->M2 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1,J8O2
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+--- Beam 2 | Value: 0.34 | First Action: J0O1->M2 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J8O2, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+--- Beam 3 | Value: 0.34 | First Action: J0O1->M2 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3:J8O2, M4: free, M5:J9O1,J4O1
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+=== Iteration 16 | Clock: 6.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.32 | First Action: J3O1->M1 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J5O0,J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J8O2: min_pt=3, rem_work=15.0, machine=[5, 2, 3]
+
+=== Iteration 16 | Clock: 6.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J3O1->M1 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1,J8O2
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+--- Beam 2 | Value: 0.34 | First Action: J3O1->M1 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J8O2, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+--- Beam 3 | Value: 0.34 | First Action: J3O1->M1 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3:J8O2, M4: free, M5:J9O1,J4O1
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+=== Iteration 16 | Clock: 6.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J3O1->M1 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3:J8O2, M4: free, M5:J9O1,J4O1
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.32 | First Action: J3O1->M1 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1,J8O2
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.32 | First Action: J3O1->M1 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J8O2, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+=== Iteration 17 | Clock: 6.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J8O2->M5 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1,J8O2
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+--- Beam 2 | Value: 0.34 | First Action: J8O2->M2 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J8O2, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O2->M3 ---
+[Machine States] M0:J6O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3:J8O2, M4: free, M5:J9O1,J4O1
+[Ready Operations] J5O1: min_pt=2, rem_work=15.0, machine=[0]
+
+=== Iteration 17 | Clock: 6.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J8O2->M3 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3:J8O2, M4: free, M5:J9O1,J4O1
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.32 | First Action: J8O2->M5 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1,J8O2
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.32 | First Action: J8O2->M2 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J8O2, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+=== Iteration 17 | Clock: 6.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J8O2->M5 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.39 | First Action: J8O2->M2 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J8O2, M3: free, M4: free, M5:J4O1,J6O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O2->M3 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J9O1,J4O1
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+=== Iteration 18 | Clock: 9.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.32 | First Action: J5O1->M0 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J9O1,J4O1,J8O2
+[Ready Operations] J6O2: min_pt=4, rem_work=6.0, machine=[2, 1, 5]
+
+=== Iteration 18 | Clock: 9.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J5O1->M0 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.34 | First Action: J5O1->M0 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1,J6O2, M2:J7O0,J0O1, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.34 | First Action: J5O1->M0 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J4O1,J8O2,J6O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+=== Iteration 18 | Clock: 9.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J5O1->M0 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4:J9O2, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J5O1->M0 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2,J9O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J5O1->M0 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+=== Iteration 19 | Clock: 9.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J6O2->M2 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.34 | First Action: J6O2->M1 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1,J6O2, M2:J7O0,J0O1, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.34 | First Action: J6O2->M5 ---
+[Machine States] M0:J5O1, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1, M3: free, M4: free, M5:J4O1,J8O2,J6O2
+[Ready Operations] J9O2: min_pt=1, rem_work=10.0, machine=[4, 2, 1]
+
+=== Iteration 19 | Clock: 9.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J6O2->M2 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4:J9O2, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J6O2->M2 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2,J9O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J6O2->M2 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+=== Iteration 19 | Clock: 9.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J6O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J5O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J6O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+--- Beam 3 | Value: 0.39 | First Action: J6O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1, M2:J7O0,J0O1,J6O2,J9O2, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+=== Iteration 20 | Clock: 10.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J9O2->M4 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2, M3: free, M4:J9O2, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J9O2->M2 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1, M2:J7O0,J0O1,J6O2,J9O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J9O2->M1 ---
+[Machine States] M0: free, M1:J1O0,J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J5O2: min_pt=4, rem_work=13.0, machine=[2, 1, 5]
+
+=== Iteration 20 | Clock: 10.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J5O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J9O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+--- Beam 3 | Value: 0.39 | First Action: J9O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1, M2:J7O0,J0O1,J6O2,J9O2, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+=== Iteration 20 | Clock: 10.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J9O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J9O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1, M2:J0O1,J6O2,J9O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J9O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J5O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+=== Iteration 21 | Clock: 11.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J5O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J5O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J5O2->M5 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+--- Beam 3 | Value: 0.34 | First Action: J5O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J7O0,J0O1,J6O2,J5O2, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J1O1: min_pt=1, rem_work=10.0, machine=[2]
+
+=== Iteration 21 | Clock: 11.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J5O2->M5 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.34 | First Action: J5O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J5O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J5O2->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J5O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+=== Iteration 21 | Clock: 11.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J5O2->M5 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J7O1
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J5O2->M5 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J7O1, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+--- Beam 3 | Value: 0.39 | First Action: J5O2->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J5O2, M2:J0O1,J6O2,J1O1,J7O1, M3: free, M4: free, M5:J8O2
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+=== Iteration 22 | Clock: 12.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J4O1,J8O2,J5O2
+[Ready Operations] J7O1: min_pt=4, rem_work=17.0, machine=[2, 1, 5]
+
+=== Iteration 22 | Clock: 12.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J7O1
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J7O1, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+--- Beam 3 | Value: 0.34 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1,J7O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+=== Iteration 22 | Clock: 12.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J4O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J7O1
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J1O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J4O2, M2:J0O1,J6O2,J1O1,J7O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+=== Iteration 23 | Clock: 13.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O1->M5 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J7O1
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J7O1->M1 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2,J7O1, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+--- Beam 3 | Value: 0.34 | First Action: J7O1->M2 ---
+[Machine States] M0: free, M1:J2O0,J3O1,J9O2, M2:J0O1,J6O2,J1O1,J7O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J4O2: min_pt=6, rem_work=20.0, machine=[1]
+
+=== Iteration 23 | Clock: 13.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O1->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J7O1->M5 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J4O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J7O1
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J7O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J4O2, M2:J0O1,J6O2,J1O1,J7O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+=== Iteration 23 | Clock: 13.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O1->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J7O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J4O2, M2:J6O2,J1O1,J7O1,J2O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J7O1->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J2O1
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+=== Iteration 24 | Clock: 15.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J4O2->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J0O1,J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J2O1: min_pt=2, rem_work=8.0, machine=[2, 5]
+
+=== Iteration 24 | Clock: 15.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J4O2->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J4O2->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J2O1
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+=== Iteration 24 | Clock: 15.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J4O2->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1,J0O2, M3: free, M4: free, M5:J5O2
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+--- Beam 2 | Value: 0.41 | First Action: J4O2->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+--- Beam 3 | Value: 0.41 | First Action: J4O2->M1 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J0O2, M3: free, M4: free, M5:J5O2,J2O1
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+=== Iteration 25 | Clock: 18.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J2O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1, M3: free, M4: free, M5:J8O2,J5O2
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J2O1->M5 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1, M3: free, M4: free, M5:J8O2,J5O2,J2O1
+[Ready Operations] J0O2: min_pt=2, rem_work=7.0, machine=[2, 5]
+
+=== Iteration 25 | Clock: 18.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J2O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1,J0O2, M3: free, M4: free, M5:J5O2
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O1->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O1->M5 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J0O2, M3: free, M4: free, M5:J5O2,J2O1
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+=== Iteration 25 | Clock: 18.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J2O1->M2 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J1O1,J2O1,J0O2, M3: free, M4: free, M5:J5O2
+[Ready Operations] J6O3: min_pt=1, rem_work=2.0, machine=[1, 4, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J2O1->M2 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J1O1,J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J6O3: min_pt=1, rem_work=2.0, machine=[1, 4, 0]
+
+--- Beam 3 | Value: 0.39 | First Action: J2O1->M5 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J1O1,J0O2, M3: free, M4: free, M5:J5O2,J2O1
+[Ready Operations] J6O3: min_pt=1, rem_work=2.0, machine=[1, 4, 0]
+
+=== Iteration 26 | Clock: 18.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O2->M2 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1,J0O2, M3: free, M4: free, M5:J5O2
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+--- Beam 2 | Value: 0.41 | First Action: J0O2->M5 ---
+[Machine States] M0: free, M1:J3O1,J9O2,J7O1,J4O2, M2:J6O2,J1O1,J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O3: min_pt=2, rem_work=12.0, machine=[0]
+
+=== Iteration 26 | Clock: 18.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J0O2->M2 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J1O1,J2O1,J0O2, M3: free, M4: free, M5:J5O2
+[Ready Operations] J6O3: min_pt=1, rem_work=2.0, machine=[1, 4, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J0O2->M5 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J1O1,J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J6O3: min_pt=1, rem_work=2.0, machine=[1, 4, 0]
+
+=== Iteration 26 | Clock: 18.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O2->M5 ---
+[Machine States] M0:J8O3,J6O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+--- Beam 2 | Value: 0.34 | First Action: J0O2->M2 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2,J6O3, M2:J2O1,J0O2, M3: free, M4: free, M5:J5O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+--- Beam 3 | Value: 0.34 | First Action: J0O2->M2 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1,J0O2, M3: free, M4:J6O3, M5:J5O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+=== Iteration 27 | Clock: 21.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J8O3->M0 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J1O1,J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J6O3: min_pt=1, rem_work=2.0, machine=[1, 4, 0]
+
+=== Iteration 27 | Clock: 21.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O3->M0 ---
+[Machine States] M0:J8O3,J6O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+--- Beam 2 | Value: 0.34 | First Action: J8O3->M0 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2,J6O3, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O3->M0 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4:J6O3, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+=== Iteration 27 | Clock: 21.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O3->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.34 | First Action: J8O3->M0 ---
+[Machine States] M0:J1O2, M1:J3O1,J9O2,J7O1,J4O2,J6O3, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O3->M0 ---
+[Machine States] M0:J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4:J6O3, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+=== Iteration 28 | Clock: 22.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J6O3->M0 ---
+[Machine States] M0:J8O3,J6O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+--- Beam 2 | Value: 0.34 | First Action: J6O3->M1 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2,J6O3, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+--- Beam 3 | Value: 0.34 | First Action: J6O3->M4 ---
+[Machine States] M0:J8O3, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4:J6O3, M5:J5O2,J0O2
+[Ready Operations] J1O2: min_pt=2, rem_work=9.0, machine=[0]
+
+=== Iteration 28 | Clock: 22.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J6O3->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.34 | First Action: J6O3->M1 ---
+[Machine States] M0:J1O2, M1:J3O1,J9O2,J7O1,J4O2,J6O3, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.34 | First Action: J6O3->M4 ---
+[Machine States] M0:J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4:J6O3, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+=== Iteration 28 | Clock: 22.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J6O3->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J6O3->M4 ---
+[Machine States] M0:J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1,J8O4, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 3 | Value: 0.41 | First Action: J6O3->M4 ---
+[Machine States] M0:J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+=== Iteration 29 | Clock: 23.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J3O1,J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J8O4: min_pt=4, rem_work=10.0, machine=[2, 1, 5]
+
+=== Iteration 29 | Clock: 23.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 2 | Value: 0.34 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2, M2:J2O1,J8O4, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 3 | Value: 0.34 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2,J8O4, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+=== Iteration 29 | Clock: 23.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J3O2, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J8O4,J3O2, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+--- Beam 3 | Value: 0.34 | First Action: J1O2->M0 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J8O4, M2:J2O1,J3O2, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+=== Iteration 30 | Clock: 23.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O4->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 2 | Value: 0.34 | First Action: J8O4->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2, M2:J2O1,J8O4, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O4->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J9O2,J7O1,J4O2,J8O4, M2:J2O1, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J3O2: min_pt=1, rem_work=4.0, machine=[2]
+
+=== Iteration 30 | Clock: 23.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O4->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J3O2, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+--- Beam 2 | Value: 0.41 | First Action: J8O4->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J8O4,J3O2, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O4->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J8O4, M2:J2O1,J3O2, M3: free, M4: free, M5:J5O2,J0O2
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+=== Iteration 30 | Clock: 23.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O4->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J3O2, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J5O3: min_pt=6, rem_work=9.0, machine=[1]
+
+--- Beam 2 | Value: 0.41 | First Action: J8O4->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J8O4,J3O2, M3: free, M4: free, M5:J0O2,J9O3
+[Ready Operations] J5O3: min_pt=6, rem_work=9.0, machine=[1]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O4->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J8O4, M2:J2O1,J3O2, M3: free, M4: free, M5:J0O2,J9O3
+[Ready Operations] J5O3: min_pt=6, rem_work=9.0, machine=[1]
+
+=== Iteration 31 | Clock: 24.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O2->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J3O2, M3: free, M4: free, M5:J5O2,J0O2,J8O4
+[Ready Operations] J9O3: min_pt=1, rem_work=9.0, machine=[5]
+
+=== Iteration 31 | Clock: 24.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O2->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J3O2, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J5O3: min_pt=6, rem_work=9.0, machine=[1]
+
+=== Iteration 31 | Clock: 24.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J3O2->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2:J3O2, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J2O2: min_pt=1, rem_work=6.0, machine=[5, 1, 0]
+
+=== Iteration 32 | Clock: 25.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O3->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2, M2:J2O1,J3O2, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J5O3: min_pt=6, rem_work=9.0, machine=[1]
+
+=== Iteration 32 | Clock: 25.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J9O3->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2:J3O2, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J2O2: min_pt=1, rem_work=6.0, machine=[5, 1, 0]
+
+=== Iteration 32 | Clock: 25.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J9O3->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3,J2O2
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.39 | First Action: J9O3->M5 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.32 | First Action: J9O3->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3,J2O2, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+=== Iteration 33 | Clock: 27.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2:J3O2, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J2O2: min_pt=1, rem_work=6.0, machine=[5, 1, 0]
+
+=== Iteration 33 | Clock: 27.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3,J2O2
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.39 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.32 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3,J2O2, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+=== Iteration 33 | Clock: 27.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2:J3O3, M3: free, M4: free, M5:J8O4,J9O3
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.41 | First Action: J5O3->M1 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+=== Iteration 34 | Clock: 27.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.39 | First Action: J2O2->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3,J2O2
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+--- Beam 2 | Value: 0.39 | First Action: J2O2->M0 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+--- Beam 3 | Value: 0.32 | First Action: J2O2->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3,J2O2, M2: free, M3: free, M4: free, M5:J0O2,J8O4,J9O3
+[Ready Operations] J3O3: min_pt=1, rem_work=3.0, machine=[4, 2, 1]
+
+=== Iteration 34 | Clock: 27.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J2O2->M0 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2:J3O3, M3: free, M4: free, M5:J8O4,J9O3
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O2->M5 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O2->M0 ---
+[Machine States] M0:J6O3,J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+=== Iteration 34 | Clock: 27.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J2O2->M5 ---
+[Machine States] M0:J1O2,J0O3, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O2->M0 ---
+[Machine States] M0:J1O2,J2O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J0O3
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O2->M0 ---
+[Machine States] M0:J1O2,J2O2,J0O3, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+=== Iteration 35 | Clock: 28.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O3->M4 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J3O3->M2 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3, M2:J3O3, M3: free, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.34 | First Action: J3O3->M1 ---
+[Machine States] M0:J6O3,J1O2, M1:J7O1,J4O2,J5O3,J3O3, M2: free, M3: free, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O3: min_pt=1, rem_work=5.0, machine=[5, 1, 0]
+
+=== Iteration 35 | Clock: 28.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O3->M4 ---
+[Machine States] M0:J1O2,J0O3, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 2 | Value: 0.39 | First Action: J3O3->M2 ---
+[Machine States] M0:J1O2, M1:J7O1,J4O2,J5O3, M2:J3O3, M3: free, M4: free, M5:J8O4,J9O3,J2O2,J0O3
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 3 | Value: 0.34 | First Action: J3O3->M4 ---
+[Machine States] M0:J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J0O3
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+=== Iteration 35 | Clock: 28.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J3O3->M4 ---
+[Machine States] M0:J1O2,J0O3, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.39 | First Action: J3O3->M4 ---
+[Machine States] M0:J1O2, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J0O3
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.34 | First Action: J3O3->M2 ---
+[Machine States] M0:J1O2, M1:J4O2,J5O3, M2:J3O3,J6O4, M3: free, M4: free, M5:J8O4,J9O3,J2O2,J0O3
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+=== Iteration 36 | Clock: 29.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O3->M0 ---
+[Machine States] M0:J1O2,J0O3, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 2 | Value: 0.34 | First Action: J0O3->M5 ---
+[Machine States] M0:J1O2, M1:J7O1,J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J0O3
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+--- Beam 3 | Value: 0.34 | First Action: J0O3->M1 ---
+[Machine States] M0:J1O2, M1:J7O1,J4O2,J5O3,J0O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J6O4: min_pt=1, rem_work=1.0, machine=[2]
+
+=== Iteration 36 | Clock: 29.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J0O3->M0 ---
+[Machine States] M0:J1O2,J0O3, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J0O3->M1 ---
+[Machine States] M0:J1O2, M1:J4O2,J5O3,J0O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.39 | First Action: J0O3->M5 ---
+[Machine States] M0:J1O2, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J0O3
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+=== Iteration 36 | Clock: 29.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O3->M0 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3,J7O2, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J0O3->M1 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3,J0O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J0O3->M0 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J7O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+=== Iteration 37 | Clock: 29.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J6O4->M2 ---
+[Machine States] M0:J1O2,J0O3, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O2: min_pt=1, rem_work=13.0, machine=[5, 1, 0]
+
+=== Iteration 37 | Clock: 29.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J6O4->M2 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3,J7O2, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J6O4->M2 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J7O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J6O4->M2 ---
+[Machine States] M0:J0O3,J7O2, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+=== Iteration 37 | Clock: 29.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J6O4->M2 ---
+[Machine States] M0:J0O3,J7O2, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J6O4->M2 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3,J7O2, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J6O4->M2 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J7O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+=== Iteration 38 | Clock: 31.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O2->M1 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3,J7O2, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J7O2->M5 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2,J7O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J7O2->M0 ---
+[Machine States] M0:J0O3,J7O2, M1:J4O2,J5O3, M2: free, M3: free, M4:J3O3, M5:J8O4,J9O3,J2O2
+[Ready Operations] J1O3: min_pt=6, rem_work=7.0, machine=[1, 3]
+
+=== Iteration 38 | Clock: 31.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J7O2->M0 ---
+[Machine States] M0:J0O3,J7O2, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J7O2->M1 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3,J7O2, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J7O2->M5 ---
+[Machine States] M0:J0O3, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J7O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+=== Iteration 38 | Clock: 31.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O2->M0 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3, M2:J3O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J7O2->M5 ---
+[Machine States] M0: free, M1:J4O2,J5O3, M2:J3O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J7O2
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 3 | Value: 0.39 | First Action: J7O2->M0 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J3O4
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+=== Iteration 39 | Clock: 31.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J1O3->M3 ---
+[Machine States] M0:J0O3,J7O2, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J1O3->M1 ---
+[Machine States] M0:J0O3,J7O2, M1:J4O2,J5O3,J1O3, M2: free, M3: free, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J3O4: min_pt=2, rem_work=2.0, machine=[2, 5]
+
+=== Iteration 39 | Clock: 31.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O3->M3 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3, M2:J3O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O3->M1 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3,J1O3, M2:J3O4, M3: free, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 3 | Value: 0.39 | First Action: J1O3->M3 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J3O4
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+=== Iteration 39 | Clock: 31.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O3->M3 ---
+[Machine States] M0: free, M1:J4O2,J5O3, M2:J3O4,J0O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O3: min_pt=6, rem_work=12.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J1O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J1O3, M2:J3O4,J0O4, M3: free, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O3: min_pt=6, rem_work=12.0, machine=[1]
+
+--- Beam 3 | Value: 0.39 | First Action: J1O3->M3 ---
+[Machine States] M0: free, M1:J4O2,J5O3, M2:J0O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J3O4
+[Ready Operations] J7O3: min_pt=6, rem_work=12.0, machine=[1]
+
+=== Iteration 40 | Clock: 31.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O4->M2 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3, M2:J3O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+--- Beam 2 | Value: 0.39 | First Action: J3O4->M5 ---
+[Machine States] M0:J7O2, M1:J4O2,J5O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J3O4
+[Ready Operations] J0O4: min_pt=1, rem_work=4.0, machine=[2]
+
+=== Iteration 40 | Clock: 31.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O4->M2 ---
+[Machine States] M0: free, M1:J4O2,J5O3, M2:J3O4,J0O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O3: min_pt=6, rem_work=12.0, machine=[1]
+
+--- Beam 2 | Value: 0.39 | First Action: J3O4->M5 ---
+[Machine States] M0: free, M1:J4O2,J5O3, M2:J0O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J3O4
+[Ready Operations] J7O3: min_pt=6, rem_work=12.0, machine=[1]
+
+=== Iteration 40 | Clock: 31.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J3O4->M2 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2:J3O4,J0O4, M3:J1O3, M4: free, M5:J9O3,J2O2
+[Ready Operations] J8O5: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J3O4->M5 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2: free, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2,J3O4
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+=== Iteration 41 | Clock: 32.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O4->M2 ---
+[Machine States] M0: free, M1:J4O2,J5O3, M2:J3O4,J0O4, M3:J1O3, M4: free, M5:J8O4,J9O3,J2O2
+[Ready Operations] J7O3: min_pt=6, rem_work=12.0, machine=[1]
+
+=== Iteration 41 | Clock: 32.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O4->M2 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2:J3O4,J0O4, M3:J1O3, M4: free, M5:J9O3,J2O2
+[Ready Operations] J8O5: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+=== Iteration 41 | Clock: 32.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J0O4->M2 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2:J0O4, M3:J1O3,J8O5, M4: free, M5:J2O2
+[Ready Operations] J9O4: min_pt=6, rem_work=8.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.32 | First Action: J0O4->M2 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J8O5, M2:J0O4, M3:J1O3, M4: free, M5:J2O2
+[Ready Operations] J9O4: min_pt=6, rem_work=8.0, machine=[1, 3]
+
+=== Iteration 42 | Clock: 33.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2:J3O4,J0O4, M3:J1O3, M4: free, M5:J9O3,J2O2
+[Ready Operations] J8O5: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+=== Iteration 42 | Clock: 33.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J7O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2:J0O4, M3:J1O3,J8O5, M4: free, M5:J2O2
+[Ready Operations] J9O4: min_pt=6, rem_work=8.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.32 | First Action: J7O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J8O5, M2:J0O4, M3:J1O3, M4: free, M5:J2O2
+[Ready Operations] J9O4: min_pt=6, rem_work=8.0, machine=[1, 3]
+
+=== Iteration 42 | Clock: 33.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J7O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+--- Beam 2 | Value: 0.39 | First Action: J7O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J8O5,J9O4, M2: free, M3:J1O3, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+--- Beam 3 | Value: 0.34 | First Action: J7O3->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J9O4, M2: free, M3:J1O3,J8O5, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+=== Iteration 43 | Clock: 35.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.34 | First Action: J8O5->M3 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2:J0O4, M3:J1O3,J8O5, M4: free, M5:J2O2
+[Ready Operations] J9O4: min_pt=6, rem_work=8.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.32 | First Action: J8O5->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J8O5, M2:J0O4, M3:J1O3, M4: free, M5:J2O2
+[Ready Operations] J9O4: min_pt=6, rem_work=8.0, machine=[1, 3]
+
+=== Iteration 43 | Clock: 35.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O5->M3 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+--- Beam 2 | Value: 0.39 | First Action: J8O5->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J8O5,J9O4, M2: free, M3:J1O3, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+--- Beam 3 | Value: 0.34 | First Action: J8O5->M3 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J9O4, M2: free, M3:J1O3,J8O5, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+=== Iteration 43 | Clock: 35.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J8O5->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+--- Beam 2 | Value: 0.41 | First Action: J8O5->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+--- Beam 3 | Value: 0.41 | First Action: J8O5->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4,J0O5, M4: free, M5:J2O2
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+=== Iteration 44 | Clock: 36.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O4->M3 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+--- Beam 2 | Value: 0.34 | First Action: J9O4->M1 ---
+[Machine States] M0: free, M1:J4O2,J5O3,J7O3,J9O4, M2: free, M3:J1O3,J8O5, M4: free, M5:J2O2
+[Ready Operations] J0O5: min_pt=3, rem_work=3.0, machine=[5, 2, 3]
+
+=== Iteration 44 | Clock: 36.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J9O4->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+--- Beam 2 | Value: 0.41 | First Action: J9O4->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+--- Beam 3 | Value: 0.41 | First Action: J9O4->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4,J0O5, M4: free, M5:J2O2
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+=== Iteration 44 | Clock: 36.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.58 | First Action: J9O4->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5,J4O3, M3:J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J9O4->M3 ---
+[Machine States] M0:J4O3, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.41 | First Action: J9O4->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+=== Iteration 45 | Clock: 36.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O5->M5 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+--- Beam 2 | Value: 0.41 | First Action: J0O5->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5, M3:J1O3,J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+--- Beam 3 | Value: 0.41 | First Action: J0O5->M3 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J1O3,J8O5,J9O4,J0O5, M4: free, M5:J2O2
+[Ready Operations] J4O3: min_pt=4, rem_work=14.0, machine=[0, 2]
+
+=== Iteration 45 | Clock: 36.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.58 | First Action: J0O5->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5,J4O3, M3:J8O5,J9O4, M4: free, M5:J2O2
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J0O5->M5 ---
+[Machine States] M0:J4O3, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.41 | First Action: J0O5->M5 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+=== Iteration 45 | Clock: 36.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J0O5->M5 ---
+[Machine States] M0:J4O3,J1O4, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J0O5->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5,J4O3, M3:J8O5,J9O4, M4: free, M5:J1O4
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J0O5->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J0O5,J4O3, M3:J8O5,J9O4, M4: free, M5: free
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+=== Iteration 46 | Clock: 37.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J4O3->M0 ---
+[Machine States] M0:J4O3, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J4O3->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J2O2,J0O5
+[Ready Operations] J1O4: min_pt=1, rem_work=1.0, machine=[5, 1, 0]
+
+=== Iteration 46 | Clock: 37.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J4O3->M0 ---
+[Machine States] M0:J4O3,J1O4, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.41 | First Action: J4O3->M0 ---
+[Machine States] M0:J4O3, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J1O4
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.41 | First Action: J4O3->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+=== Iteration 46 | Clock: 37.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J4O3->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J4O3->M0 ---
+[Machine States] M0:J1O4, M1:J5O3,J7O3, M2:J2O3, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J4O3->M0 ---
+[Machine States] M0:J1O4, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+=== Iteration 47 | Clock: 37.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.41 | First Action: J1O4->M0 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.39 | First Action: J1O4->M5 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J0O5,J1O4
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.39 | First Action: J1O4->M1 ---
+[Machine States] M0: free, M1:J5O3,J7O3,J1O4, M2:J4O3, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J2O3: min_pt=4, rem_work=5.0, machine=[2, 1, 5]
+
+=== Iteration 47 | Clock: 37.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J1O4->M0 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J1O4->M0 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J2O3, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J1O4->M5 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J2O3, M3:J8O5,J9O4, M4: free, M5:J0O5,J1O4
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+=== Iteration 47 | Clock: 37.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.58 | First Action: J1O4->M0 ---
+[Machine States] M0: free, M1:J7O3,J4O4, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.48 | First Action: J1O4->M5 ---
+[Machine States] M0: free, M1:J7O3,J4O4, M2:J2O3, M3:J8O5,J9O4, M4: free, M5:J0O5,J1O4
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.41 | First Action: J1O4->M0 ---
+[Machine States] M0: free, M1:J7O3, M2: free, M3:J8O5,J9O4,J4O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+=== Iteration 48 | Clock: 41.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.48 | First Action: J2O3->M5 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O3->M2 ---
+[Machine States] M0: free, M1:J5O3,J7O3, M2:J2O3, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.34 | First Action: J2O3->M1 ---
+[Machine States] M0: free, M1:J5O3,J7O3,J2O3, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J4O4: min_pt=6, rem_work=10.0, machine=[1, 3]
+
+=== Iteration 48 | Clock: 41.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.58 | First Action: J2O3->M5 ---
+[Machine States] M0: free, M1:J7O3,J4O4, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O3->M1 ---
+[Machine States] M0: free, M1:J7O3,J2O3,J4O4, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O3->M1 ---
+[Machine States] M0: free, M1:J7O3,J2O3, M2: free, M3:J8O5,J9O4,J4O4, M4: free, M5:J0O5
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+=== Iteration 48 | Clock: 41.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.58 | First Action: J2O3->M5 ---
+[Machine States] M0: free, M1:J7O3,J4O4, M2: free, M3:J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.41 | First Action: J2O3->M5 ---
+[Machine States] M0: free, M1:J4O4, M2: free, M3:J9O4, M4: free, M5:J2O3,J5O4
+[Ready Operations] J7O4: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J2O3->M1 ---
+[Machine States] M0: free, M1:J2O3,J4O4, M2: free, M3:J9O4, M4: free, M5:J5O4
+[Ready Operations] J7O4: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+=== Iteration 49 | Clock: 41.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.58 | First Action: J4O4->M1 ---
+[Machine States] M0: free, M1:J7O3,J4O4, M2: free, M3:J8O5,J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+--- Beam 2 | Value: 0.41 | First Action: J4O4->M3 ---
+[Machine States] M0: free, M1:J7O3, M2: free, M3:J8O5,J9O4,J4O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O4: min_pt=1, rem_work=3.0, machine=[5, 1, 0]
+
+=== Iteration 49 | Clock: 41.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.61 | First Action: J4O4->M3 ---
+[Machine States] M0: free, M1:J7O3, M2: free, M3:J9O4,J4O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.61 | First Action: J4O4->M3 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J9O4,J4O4, M4: free, M5:J2O3
+[Ready Operations] J7O4: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.58 | First Action: J4O4->M1 ---
+[Machine States] M0: free, M1:J7O3,J4O4, M2: free, M3:J9O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 49 | Clock: 41.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J4O4->M3 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4, M4: free, M5:J2O3
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.64 | First Action: J4O4->M1 ---
+[Machine States] M0: free, M1:J4O4, M2: free, M3:J9O4,J5O5, M4: free, M5:J2O3
+[Ready Operations] J7O4: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.48 | First Action: J4O4->M3 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J4O4,J7O4, M4: free, M5:J2O3
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 50 | Clock: 43.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.61 | First Action: J5O4->M0 ---
+[Machine States] M0: free, M1:J7O3, M2: free, M3:J9O4,J4O4, M4: free, M5:J0O5,J2O3
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.61 | First Action: J5O4->M1 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J9O4,J4O4, M4: free, M5:J2O3
+[Ready Operations] J7O4: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+--- Beam 3 | Value: 0.41 | First Action: J5O4->M5 ---
+[Machine States] M0: free, M1: free, M2: free, M3:J9O4,J4O4, M4: free, M5:J2O3,J5O4
+[Ready Operations] J7O4: min_pt=6, rem_work=6.0, machine=[1, 3]
+
+=== Iteration 50 | Clock: 43.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J5O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4, M4: free, M5:J2O3
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.58 | First Action: J5O4->M5 ---
+[Machine States] M0: free, M1:J7O4, M2: free, M3:J4O4, M4: free, M5:J2O3,J5O4
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 3 | Value: 0.48 | First Action: J5O4->M1 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J4O4,J7O4, M4: free, M5:J2O3
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 50 | Clock: 43.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J5O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+--- Beam 2 | Value: 0.61 | First Action: J5O4->M5 ---
+[Machine States] M0: free, M1:J7O4, M2: free, M3:J4O4, M4: free, M5:J5O4
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+--- Beam 3 | Value: 0.48 | First Action: J5O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4,J9O5, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+=== Iteration 51 | Clock: 49.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J7O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4, M4: free, M5:J2O3
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.48 | First Action: J7O4->M3 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J4O4,J7O4, M4: free, M5:J2O3
+[Ready Operations] J9O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 51 | Clock: 49.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J7O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+--- Beam 2 | Value: 0.48 | First Action: J7O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4,J9O5, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+--- Beam 3 | Value: 0.48 | First Action: J7O4->M3 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J4O4,J7O4, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+=== Iteration 51 | Clock: 49.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.84 | First Action: J7O4->M1 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.69 | First Action: J7O4->M3 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J7O4, M4: free, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.69 | First Action: J7O4->M3 ---
+[Machine States] M0: free, M1:J5O4, M2: free, M3:J7O4, M4:J2O4, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+=== Iteration 52 | Clock: 49.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.64 | First Action: J9O5->M0 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+--- Beam 2 | Value: 0.48 | First Action: J9O5->M3 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J4O4,J9O5, M4: free, M5: free
+[Ready Operations] J2O4: min_pt=1, rem_work=1.0, machine=[0, 4]
+
+=== Iteration 52 | Clock: 49.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.84 | First Action: J9O5->M0 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.65 | First Action: J9O5->M3 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J9O5, M4:J2O4, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+--- Beam 3 | Value: 0.64 | First Action: J9O5->M3 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3:J9O5, M4: free, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+=== Iteration 52 | Clock: 49.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.93 | First Action: J9O5->M0 ---
+[Machine States] M0: free, M1:J7O4,J4O5, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.84 | First Action: J9O5->M3 ---
+[Machine States] M0: free, M1:J7O4, M2:J4O5, M3:J9O5, M4:J2O4, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 3 | Value: 0.69 | First Action: J9O5->M3 ---
+[Machine States] M0: free, M1:J7O4,J4O5, M2: free, M3:J9O5, M4: free, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 53 | Clock: 53.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.84 | First Action: J2O4->M0 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+--- Beam 2 | Value: 0.48 | First Action: J2O4->M4 ---
+[Machine States] M0: free, M1:J5O4,J7O4, M2: free, M3: free, M4:J2O4, M5: free
+[Ready Operations] J4O5: min_pt=4, rem_work=4.0, machine=[2, 1, 5]
+
+=== Iteration 53 | Clock: 53.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.93 | First Action: J2O4->M0 ---
+[Machine States] M0: free, M1:J7O4,J4O5, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.69 | First Action: J2O4->M4 ---
+[Machine States] M0: free, M1:J7O4, M2:J4O5, M3: free, M4:J2O4, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 3 | Value: 0.69 | First Action: J2O4->M4 ---
+[Machine States] M0: free, M1:J7O4, M2: free, M3: free, M4:J2O4, M5:J4O5
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 53 | Clock: 53.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 1.00 | First Action: J2O4->M0 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 2 | Value: 1.00 | First Action: J2O4->M0 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 3 | Value: 1.00 | First Action: J2O4->M4 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+=== Iteration 54 | Clock: 55.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 0.93 | First Action: J4O5->M1 ---
+[Machine States] M0: free, M1:J7O4,J4O5, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 2 | Value: 0.64 | First Action: J4O5->M5 ---
+[Machine States] M0: free, M1:J7O4, M2: free, M3: free, M4: free, M5:J4O5
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+--- Beam 3 | Value: 0.48 | First Action: J4O5->M2 ---
+[Machine States] M0: free, M1:J7O4, M2:J4O5, M3: free, M4: free, M5: free
+[Ready Operations] J5O5: min_pt=2, rem_work=2.0, machine=[0, 3]
+
+=== Iteration 54 | Clock: 55.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 1.00 | First Action: J4O5->M1 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 2 | Value: 1.00 | First Action: J4O5->M1 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 3 | Value: 1.00 | First Action: J4O5->M5 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+=== Iteration 54 | Clock: 55.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 1.00 | First Action: J4O5->M1 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 2 | Value: 1.00 | First Action: J4O5->M1 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 3 | Value: 1.00 | First Action: J4O5->M5 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+=== Iteration 55 | Clock: 55.0 | Depth: 0 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 1.00 | First Action: J5O5->M0 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 2 | Value: 1.00 | First Action: J5O5->M3 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+=== Iteration 55 | Clock: 55.0 | Depth: 1 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 1.00 | First Action: J5O5->M0 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 2 | Value: 1.00 | First Action: J5O5->M3 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+=== Iteration 55 | Clock: 55.0 | Depth: 2 ===
+[Strategic Experience]
+None available.
+
+--- Beam 1 | Value: 1.00 | First Action: J5O5->M0 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+
+--- Beam 2 | Value: 1.00 | First Action: J5O5->M3 ---
+[Machine States] M0: free, M1: free, M2: free, M3: free, M4: free, M5: free
+[Ready Operations] None (Waiting or Finished)
+

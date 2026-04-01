@@ -1,0 +1,56 @@
+--- PROBLEM FILE: problem_data/brandimarte/mk01.json ---
+--- MODEL: google/gemini-3.1-flash-lite-preview ---
+--- CALL TYPE: Value_Estimation ---
+--- LATENCY: 3.16s ---
+
+=== PROMPT INPUTS ===
+[timestamp]:
+17.0
+
+[machines_states]:
+- Machine 0: status=Available, free_at=17.0, wait_time=0.0, contention=6
+- Machine 1: status=Available, free_at=42.0, wait_time=25.0, contention=15
+- Machine 2: status=Available, free_at=23.0, wait_time=6.0, contention=10
+- Machine 3: status=Available, free_at=21.0, wait_time=4.0, contention=8
+- Machine 4: status=Available, free_at=16.0, wait_time=0.0, contention=2
+- Machine 5: status=Available, free_at=17.0, wait_time=0.0, contention=7
+
+[emergency_jobs]:
+- None
+
+[ready_operations]:
+- Job 9, Op 4: est=21.0, min_pt=6, rem_work=8, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 9, Op 4: est=21.0, min_pt=6, rem_work=8, flexibility=2, is_critical=False, [EMERGENCY]=False
+
+[actions_json]:
+[
+  {
+    "job": 9,
+    "op": 4,
+    "machine": 1,
+    "processing_time": 6,
+    "wait_time": 25.0,
+    "is_critical": false
+  },
+  {
+    "job": 9,
+    "op": 4,
+    "machine": 3,
+    "processing_time": 6,
+    "wait_time": 4.0,
+    "is_critical": false
+  }
+]
+
+[lower_bound]:
+43.00
+
+[strategic_experience]:
+None available.
+
+=== LLM RESPONSE ===
+The current state shows significant imbalance. Machine 1 is a severe bottleneck with a `free_at` time of 42.0, which is nearly equal to the global theoretical makespan of 43.0, effectively forcing the entire factory to wait for this single resource. High contention on Machine 1 (15) combined with a 25.0 unit wait time indicates poor load distribution. While other machines are available, the downstream dependency on Machine 1 prevents efficient flow.
+
+<score>
+0.3200
+</score>
