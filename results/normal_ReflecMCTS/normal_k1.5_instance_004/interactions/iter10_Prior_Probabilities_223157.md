@@ -1,0 +1,213 @@
+# LLM Call: Prior_Probabilities
+
+| Field | Value |
+|-------|-------|
+| Iteration | 10 |
+| Model | `openrouter:openai/gpt-oss-20b` |
+| Latency | 11.118s |
+
+---
+
+## Prompt Sent
+
+You are the Prior Policy Generator for a Job Shop Scheduling MCTS. 
+Your goal is to guide the tree search by scoring the available actions to minimize tardiness.
+
+# Key Information to Consider
+1. **Current Timestamp**: 0.0
+2. **Machine States**:
+- 'status': Is the machine available, busy or broken?
+- 'available_from': When will the machine be free for another operation?
+- 'contention': How many *future* operations need this machine? A high contention machine is a future bottleneck. **Avoid occupying a high-contention machine with a non-critical or flexible task.**
+- 'Queue': Which other operations are currently waiting in line at this machine?
+3. **Ready Operations**:
+- 'est': Earliest start time - When can this operation *actually* start?
+- 'min_pt': Shortest possible processing time.
+- 'rem_work': How much work is left for this job? 
+- 'due_date': The committed due date for the job.
+- 'is_critical': True/False - This job has the most remaining work. NOTE: A critical job with large positive slack can safely wait, but a critical job with small or negative slack is a severe tardiness risk.
+- 'flexibility': How many machine options does this operation have?
+- '[EMERGENCY]': These jobs MUST be scheduled before any non-emergency job.
+4. **Available Actions**:
+- 'index': Action index
+- 'job': The candidate job J
+- 'op': The operation O of the candidate job to be processed
+- 'machine': The machine M that the operation can be processed on
+- 'processing_time': Actual processing time of operation O on machine M
+- 'start_time': Actual starting time of operation O if assigned to machine M, accounting for queue operations
+- 'wait_time': How much longer operation O needs to wait in queue before being processed
+- 'due_date': Time that job J is due
+- 'slack': due_date - current_time - rem_work. Negative slack means the job is mathematically guaranteed to be tardy and must be treated as urgent.
+
+### Strategic Lessons from Past Simulations:
+**Banned Behaviors:**
+- DO NOT assign J11O0 or J12O0 to M0; these are major bottleneck catalysts.
+- DO NOT postpone M2 activation; idle time on M2 at T=0 is lost capacity that cannot be recovered.
+- DO NOT assign J3O0 to M0 if M1 or M2 are available within a 2.0 pt delta.
+
+**Bottleneck Focus:**
+- M0 Queue Depth: Must remain below 3 active operations to prevent serial dependency cascades.
+- M2 Utilization: Transition from "sparse exploration" to "constant load" to relieve M0.
+
+**Current Routing Priorities:**
+- IMMEDIATELY route J11O0 or J2O0 to M2.
+- Reserve M0 for ultra-short operations (J13, J6, J15) to maintain flow.
+- Use M1 to pull J4 and J12 through their sequences to unlock their downstream operations.
+
+### Current State:
+Machine States:
+- Machine 0: Processing Job 10 (Op 0), Job 14 (Op 0), Available from T=8.2, Contention: 26
+- Machine 1: Processing Job 3 (Op 0), Job 12 (Op 0), Job 4 (Op 0), Available from T=9.2, Contention: 22
+- Machine 2: Processing Job 7 (Op 0), Job 9 (Op 0), Job 8 (Op 0), Job 1 (Op 0), Job 11 (Op 0), Available from T=18.5, Contention: 16
+Ready Operations:
+- Job 0, Op 0: est=8.165, min_pt=1.886, rem_work=9.008, due_date=14.000, slack=4.992, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 2, Op 0: est=9.231, min_pt=1.891, rem_work=4.061, due_date=6.000, slack=1.939, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 5, Op 0: est=8.165, min_pt=1.462, rem_work=8.630, due_date=14.000, slack=5.370, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 6, Op 0: est=8.165, min_pt=1.238, rem_work=11.646, due_date=17.000, slack=5.354, flexibility=1, is_critical=True, [EMERGENCY]=False
+- Job 13, Op 0: est=8.165, min_pt=1.196, rem_work=10.051, due_date=15.000, slack=4.949, flexibility=2, is_critical=False, [EMERGENCY]=False
+- Job 15, Op 0: est=18.499, min_pt=0.957, rem_work=5.341, due_date=8.000, slack=2.659, flexibility=1, is_critical=False, [EMERGENCY]=False
+
+### Available Actions:
+[
+  {
+    "index": "0",
+    "job": 0,
+    "op": 0,
+    "machine": 1,
+    "processing_time": 2.453,
+    "start_time": 9.231,
+    "wait_time": 9.231,
+    "due_date": 14.0,
+    "slack": 4.992,
+    "is_critical": false
+  },
+  {
+    "index": "1",
+    "job": 0,
+    "op": 0,
+    "machine": 0,
+    "processing_time": 1.886,
+    "start_time": 8.165,
+    "wait_time": 8.165,
+    "due_date": 14.0,
+    "slack": 4.992,
+    "is_critical": false
+  },
+  {
+    "index": "2",
+    "job": 2,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 1.891,
+    "start_time": 18.499,
+    "wait_time": 18.499,
+    "due_date": 6.0,
+    "slack": 1.939,
+    "is_critical": false
+  },
+  {
+    "index": "3",
+    "job": 2,
+    "op": 0,
+    "machine": 1,
+    "processing_time": 2.38,
+    "start_time": 9.231,
+    "wait_time": 9.231,
+    "due_date": 6.0,
+    "slack": 1.939,
+    "is_critical": false
+  },
+  {
+    "index": "4",
+    "job": 5,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 1.462,
+    "start_time": 18.499,
+    "wait_time": 18.499,
+    "due_date": 14.0,
+    "slack": 5.37,
+    "is_critical": false
+  },
+  {
+    "index": "5",
+    "job": 5,
+    "op": 0,
+    "machine": 0,
+    "processing_time": 1.728,
+    "start_time": 8.165,
+    "wait_time": 8.165,
+    "due_date": 14.0,
+    "slack": 5.37,
+    "is_critical": false
+  },
+  {
+    "index": "6",
+    "job": 6,
+    "op": 0,
+    "machine": 0,
+    "processing_time": 1.238,
+    "start_time": 8.165,
+    "wait_time": 8.165,
+    "due_date": 17.0,
+    "slack": 5.354,
+    "is_critical": true
+  },
+  {
+    "index": "7",
+    "job": 13,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 1.202,
+    "start_time": 18.499,
+    "wait_time": 18.499,
+    "due_date": 15.0,
+    "slack": 4.949,
+    "is_critical": false
+  },
+  {
+    "index": "8",
+    "job": 13,
+    "op": 0,
+    "machine": 0,
+    "processing_time": 1.196,
+    "start_time": 8.165,
+    "wait_time": 8.165,
+    "due_date": 15.0,
+    "slack": 4.949,
+    "is_critical": false
+  },
+  {
+    "index": "9",
+    "job": 15,
+    "op": 0,
+    "machine": 2,
+    "processing_time": 0.957,
+    "start_time": 18.499,
+    "wait_time": 18.499,
+    "due_date": 8.0,
+    "slack": 2.659,
+    "is_critical": false
+  }
+]
+
+
+# Task: Assign a raw preference score (0.0 to 10.0) to each action
+Think step-by-step. Your reasoning should balance these factors:
+1. **Urgency**: Handle '[EMERGENCY]' jobs first.
+2. **Due-Date Risk**: Prioritize jobs with the earliest due dates and the smallest slack.
+3. **Negative Slack Alerts**: If slack is negative, treat the job as an immediate scheduling emergency to reduce unavoidable tardiness growth. Balance the need to process it quickly against the risk of delaying other on-time jobs (The Triage Dilemma).
+4. **Constraints**: An operation with low 'flexibility' (e.g., 1) is a constraint. Clearing it might unlock more options.
+5. **Bottlenecks**: Is the machine you are choosing a high-‘contention‘ resource? 
+If so, is this operation important enough to occupy it? 
+Could a more flexible operation go to a less contended machine?
+6. **Flow**: Does scheduling a long-'rem_work' job now prevent severe tardiness later?
+Or is it better to clear a quick job to speed up the flow?
+Output ONLY valid JSON in this exact format, with no markdown formatting or extra text:
+{"operation_scores": {"0": XX.X, "1": XX.X, "2": XX.X}}
+
+---
+
+## LLM Response
+
+{"operation_scores":{"0":4.0,"1":3.5,"2":1.0,"3":8.0,"4":1.5,"5":4.5,"6":9.5,"7":1.5,"8":4.0,"9":1.0}}

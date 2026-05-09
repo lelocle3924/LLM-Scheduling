@@ -1,0 +1,87 @@
+# LLM Call: Hierarchical_Reflection_L1
+
+| Field | Value |
+|-------|-------|
+| Iteration | 62 |
+| Model | `openrouter:google/gemini-3-flash-preview` |
+| Latency | 9.457s |
+
+---
+
+## Prompt Sent
+
+user: You are a master Scheduling Strategist operating in a Dynamic Job Shop.
+A critical event has just occurred at Time 25.718: **Machine 3 Repaired**
+
+**Current Planning Level**: Level 1 (Macro: Long-Range Sparse Exploration)
+
+### Previous Level Strategic Insights (If any)
+No previous insights. This is the highest planning level.
+
+### Current State Summary
+Machine States:
+- Machine 0: Processing Job 18 (Op 1) | Queue: Job 23 (Op 1), Job 0 (Op 2), Available from T=33.9, Contention: 5
+- Machine 1: Processing Job 11 (Op 3) | Queue: Job 9 (Op 3), Available from T=30.2, Contention: 8
+- Machine 2: Processing Job 6 (Op 2) | Queue: Job 24 (Op 0), Job 17 (Op 1), Job 20 (Op 1), Available from T=31.2, Contention: 5
+- Machine 3: Processing Job 19 (Op 1) | Queue: Job 14 (Op 1), Job 22 (Op 1), Job 1 (Op 1), Available from T=25.7, Contention: 11
+- Machine 4: Processing Job 8 (Op 1) | Queue: Job 16 (Op 1), Available from T=29.9, Contention: 8
+
+### Simulated Futures (from Time 25.718)
+Best Rollouts:
+1. action_tested=Random Macro Path | tardiness=334.704 | makespan=46.111
+   trajectory: [T:25.7-27.9] J21O1@M3 (pt:2.196) | [T:27.9-30.1] J8O2@M3 (pt:2.213) | [T:30.2-32.9] J18O2@M1 (pt:2.694) | [T:31.2-35.9] J19O2@M2 (pt:4.687) | [T:33.9-35.1] J21O2@M0 (pt:1.158) | [T:29.9-33.6] J24O1@M4 (pt:3.664) | [T:30.1-34.0] J16O2@M3 (pt:3.902) | [T:34.0-35.1] J23O2@M3 (pt:1.117) | [T:32.9-34.3] J17O2@M1 (pt:1.376) | [T:34.3-38.0] J14O2@M1 (pt:3.774) | [T:35.1-37.2] J20O2@M0 (pt:2.146) | [T:38.0-41.5] J22O2@M1 (pt:3.45) | [T:35.1-37.4] J1O2@M3 (pt:2.221) | [T:37.4-38.5] J24O2@M3 (pt:1.1) | [T:35.1-39.3] J23O3@M4 (pt:4.198) | [T:38.5-42.6] J20O3@M3 (pt:4.135) | [T:37.4-41.3] J1O3@M2 (pt:3.918) | [T:41.5-46.1] J22O3@M2 (pt:4.629)
+   analytics: {"bottleneck": 2, "busy_times": {"0": 3.304, "1": 11.294, "2": 13.234, "3": 16.884, "4": 7.862}}
+2. action_tested=Random Macro Path | tardiness=337.561 | makespan=46.503
+   trajectory: [T:25.7-27.9] J21O1@M3 (pt:2.196) | [T:31.2-33.3] J8O2@M2 (pt:2.102) | [T:33.9-37.0] J18O2@M0 (pt:3.1) | [T:33.3-38.0] J19O2@M2 (pt:4.687) | [T:29.9-31.1] J21O2@M4 (pt:1.218) | [T:31.1-34.8] J24O1@M4 (pt:3.664) | [T:29.9-33.8] J16O2@M3 (pt:3.902) | [T:33.8-34.9] J23O2@M3 (pt:1.117) | [T:30.2-31.6] J17O2@M1 (pt:1.376) | [T:31.6-35.3] J14O2@M1 (pt:3.774) | [T:35.3-37.5] J20O2@M1 (pt:2.137) | [T:37.5-40.9] J22O2@M1 (pt:3.45) | [T:34.9-37.1] J1O2@M3 (pt:2.221) | [T:34.8-36.0] J24O2@M4 (pt:1.25) | [T:36.0-40.2] J23O3@M4 (pt:4.198) | [T:38.0-41.9] J1O3@M2 (pt:3.918) | [T:40.9-46.3] J20O3@M1 (pt:5.327) | [T:41.9-46.5] J22O3@M2 (pt:4.629)
+   analytics: {"bottleneck": 2, "busy_times": {"0": 3.1, "1": 16.064, "2": 15.336, "3": 9.436, "4": 10.33}}
+
+Worst Rollouts:
+1. action_tested=Random Macro Path | tardiness=355.957 | makespan=49.724
+   trajectory: [T:25.7-27.9] J21O1@M3 (pt:2.196) | [T:27.9-30.1] J8O2@M3 (pt:2.213) | [T:33.9-37.0] J18O2@M0 (pt:3.1) | [T:37.0-41.1] J19O2@M0 (pt:4.034) | [T:41.1-42.2] J21O2@M0 (pt:1.158) | [T:29.9-33.6] J24O1@M4 (pt:3.664) | [T:30.1-34.0] J16O2@M3 (pt:3.902) | [T:34.0-35.1] J23O2@M3 (pt:1.117) | [T:30.2-31.6] J17O2@M1 (pt:1.376) | [T:31.6-35.3] J14O2@M1 (pt:3.774) | [T:35.1-37.3] J20O2@M3 (pt:2.172) | [T:35.3-38.8] J22O2@M1 (pt:3.45) | [T:37.3-39.5] J1O2@M3 (pt:2.221) | [T:39.5-40.6] J24O2@M3 (pt:1.1) | [T:35.1-39.3] J23O3@M4 (pt:4.198) | [T:40.6-44.8] J20O3@M3 (pt:4.135) | [T:44.8-49.7] J22O3@M3 (pt:4.95) | [T:39.5-43.5] J1O3@M2 (pt:3.918)
+   analytics: {"bottleneck": 3, "busy_times": {"0": 8.292, "1": 8.6, "2": 3.918, "3": 24.006, "4": 7.862}}
+2. action_tested=Random Macro Path | tardiness=357.460 | makespan=49.645
+   trajectory: [T:25.7-27.9] J21O1@M3 (pt:2.196) | [T:27.9-30.1] J8O2@M3 (pt:2.213) | [T:29.9-32.9] J18O2@M4 (pt:2.973) | [T:33.9-38.0] J19O2@M0 (pt:4.034) | [T:32.9-34.1] J21O2@M4 (pt:1.218) | [T:30.1-35.0] J24O1@M3 (pt:4.872) | [T:35.0-38.9] J16O2@M3 (pt:3.902) | [T:38.9-40.0] J23O2@M3 (pt:1.117) | [T:40.0-41.3] J17O2@M3 (pt:1.316) | [T:30.2-34.0] J14O2@M1 (pt:3.774) | [T:41.3-43.5] J20O2@M3 (pt:2.172) | [T:34.0-37.4] J22O2@M1 (pt:3.45) | [T:43.5-45.7] J1O2@M3 (pt:2.221) | [T:35.0-36.2] J24O2@M4 (pt:1.25) | [T:37.4-41.3] J22O3@M4 (pt:3.925) | [T:41.3-45.5] J23O3@M4 (pt:4.198) | [T:43.5-48.8] J20O3@M1 (pt:5.327) | [T:45.7-49.6] J1O3@M2 (pt:3.918)
+   analytics: {"bottleneck": 2, "busy_times": {"0": 4.034, "1": 12.551, "2": 3.918, "3": 20.009, "4": 13.564}}
+
+# Analysis and Synthesis Task
+1. **Analyze the Outcomes**: Compare the "Best" vs "Worst" simulated outcomes. If this is a Macro level, look at global bottlenecks. If this is a Micro level, look at the specific immediate actions tested.
+2. **Synthesize/Refine Strategy**: Evaluate the "Previous Level Strategic Insights". Do these new simulations confirm, contradict, or add nuance to them? Refine them into a highly specific, state-conditioned set of routing rules.
+
+# Output Requirements
+Provide your analysis in the following XML-style tags. Be concise.
+
+<comparison_summary>
+(Analyze the divergence between Best and Worst outcomes. How do they refine the previous insights?)
+</comparison_summary>
+
+<key_insights>
+**Banned Behaviors:** (Write strict negative commands starting with "DO NOT...", explaining exactly what actions must be avoided and when)
+**Bottleneck Focus:** (Which machines need careful queue management)
+**Current Routing Priorities:** (Heuristics and priorities for the current state)
+</key_insights>
+
+
+---
+
+## LLM Response
+
+<comparison_summary>
+Best outcomes limit M3 busy time to ~16.8. Worst outcomes overload M3 to 20.0-24.0. Key divergence: routing J18O2 and J19O2 to M1/M2 (Best) vs. M0/M4 (Worst). Overloading M3 with J24O1 or late-stage J22O3 significantly increases makespan and tardiness.
+</comparison_summary>
+
+<key_insights>
+**Banned Behaviors:**
+- DO NOT route J24O1 to M3; causes severe queue backup (Worst Case 2).
+- DO NOT route J19O2 to M0; blocks M0 for short J21/J20 operations (Worst Case 1).
+- DO NOT route J18O2 to M4; overlaps with J24/J23 needs.
+
+**Bottleneck Focus:**
+- Machine 3: Extreme contention (11). Must only take short, early-sequence tasks (J21O1).
+- Machine 2: Becomes secondary bottleneck for late-stage ops (J22O3, J1O3).
+
+**Current Routing Priorities:**
+- Load J21O1 to M3 immediately (Short PT: 2.196).
+- Route J18O2 to M1 upon M1 availability (T=30.2).
+- Route J19O2 to M2 upon M2 availability (T=31.2).
+- High priority to J21O2 on M0 after J18O1 to clear the job.
+</key_insights>

@@ -1,0 +1,987 @@
+{
+  "machines": 5,
+  "jobs": [
+    [
+      [
+        {
+          "machine": 1,
+          "processing": 0.978
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 3.44
+        },
+        {
+          "machine": 4,
+          "processing": 3.47
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 4.127
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 1.164
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 3,
+          "processing": 2.536
+        },
+        {
+          "machine": 1,
+          "processing": 2.483
+        },
+        {
+          "machine": 4,
+          "processing": 1.812
+        }
+      ],
+      [
+        {
+          "machine": 0,
+          "processing": 1.457
+        }
+      ],
+      [
+        {
+          "machine": 0,
+          "processing": 1.989
+        },
+        {
+          "machine": 1,
+          "processing": 2.475
+        },
+        {
+          "machine": 2,
+          "processing": 2.482
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 3.312
+        },
+        {
+          "machine": 1,
+          "processing": 3.032
+        },
+        {
+          "machine": 0,
+          "processing": 3.079
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 3,
+          "processing": 3.724
+        },
+        {
+          "machine": 0,
+          "processing": 3.983
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 3.915
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 0,
+          "processing": 3.66
+        }
+      ],
+      [
+        {
+          "machine": 2,
+          "processing": 2.726
+        },
+        {
+          "machine": 1,
+          "processing": 3.134
+        },
+        {
+          "machine": 3,
+          "processing": 3.458
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 3.776
+        },
+        {
+          "machine": 2,
+          "processing": 4.764
+        },
+        {
+          "machine": 4,
+          "processing": 3.667
+        }
+      ],
+      [
+        {
+          "machine": 0,
+          "processing": 2.054
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 4,
+          "processing": 1.82
+        },
+        {
+          "machine": 0,
+          "processing": 2.11
+        },
+        {
+          "machine": 3,
+          "processing": 1.908
+        }
+      ],
+      [
+        {
+          "machine": 0,
+          "processing": 1.805
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 1,
+          "processing": 4.064
+        },
+        {
+          "machine": 3,
+          "processing": 3.536
+        },
+        {
+          "machine": 4,
+          "processing": 3.419
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 2.078
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 1,
+          "processing": 2.156
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 1.38
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 4.594
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 4.017
+        },
+        {
+          "machine": 2,
+          "processing": 4.598
+        },
+        {
+          "machine": 0,
+          "processing": 3.111
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 4,
+          "processing": 3.671
+        },
+        {
+          "machine": 2,
+          "processing": 4.145
+        },
+        {
+          "machine": 1,
+          "processing": 4.626
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 2.326
+        },
+        {
+          "machine": 0,
+          "processing": 1.93
+        }
+      ],
+      [
+        {
+          "machine": 0,
+          "processing": 2.393
+        },
+        {
+          "machine": 1,
+          "processing": 2.226
+        }
+      ],
+      [
+        {
+          "machine": 2,
+          "processing": 2.98
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 4,
+          "processing": 0.979
+        },
+        {
+          "machine": 2,
+          "processing": 1.123
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 0.969
+        },
+        {
+          "machine": 4,
+          "processing": 1.125
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 2,
+          "processing": 2.858
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 1.288
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 2.102
+        },
+        {
+          "machine": 0,
+          "processing": 1.939
+        },
+        {
+          "machine": 4,
+          "processing": 2.546
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 3,
+          "processing": 1.215
+        },
+        {
+          "machine": 0,
+          "processing": 0.964
+        },
+        {
+          "machine": 4,
+          "processing": 1.134
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 4.339
+        },
+        {
+          "machine": 3,
+          "processing": 4.083
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 4.38
+        },
+        {
+          "machine": 2,
+          "processing": 4.748
+        },
+        {
+          "machine": 3,
+          "processing": 5.052
+        }
+      ],
+      [
+        {
+          "machine": 3,
+          "processing": 1.908
+        },
+        {
+          "machine": 4,
+          "processing": 1.887
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 0,
+          "processing": 3.414
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 2.082
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 2.676
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 0,
+          "processing": 3.682
+        },
+        {
+          "machine": 4,
+          "processing": 3.455
+        },
+        {
+          "machine": 1,
+          "processing": 2.978
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 1.023
+        },
+        {
+          "machine": 3,
+          "processing": 0.957
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 3,
+          "processing": 3.762
+        },
+        {
+          "machine": 4,
+          "processing": 4.604
+        },
+        {
+          "machine": 0,
+          "processing": 4.327
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 2.508
+        },
+        {
+          "machine": 4,
+          "processing": 2.129
+        },
+        {
+          "machine": 0,
+          "processing": 2.049
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 4.402
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 3.871
+        },
+        {
+          "machine": 0,
+          "processing": 4.245
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "machine": 2,
+          "processing": 4.265
+        },
+        {
+          "machine": 0,
+          "processing": 4.735
+        },
+        {
+          "machine": 3,
+          "processing": 4.114
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 1.89
+        },
+        {
+          "machine": 3,
+          "processing": 2.189
+        }
+      ],
+      [
+        {
+          "machine": 1,
+          "processing": 1.42
+        },
+        {
+          "machine": 4,
+          "processing": 1.596
+        }
+      ],
+      [
+        {
+          "machine": 4,
+          "processing": 3.727
+        },
+        {
+          "machine": 3,
+          "processing": 4.16
+        },
+        {
+          "machine": 1,
+          "processing": 3.96
+        }
+      ]
+    ]
+  ],
+  "release_times": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 0.0,
+    "15": 10.194,
+    "16": 9.881,
+    "17": 1.11,
+    "18": 8.064,
+    "19": 0.679,
+    "20": 2.4,
+    "21": 14.713,
+    "22": 10.465,
+    "23": 7.892
+  },
+  "due_dates": {
+    "0": 14,
+    "1": 13,
+    "2": 11,
+    "3": 19,
+    "4": 5,
+    "5": 8,
+    "6": 18,
+    "7": 17,
+    "8": 3,
+    "9": 9,
+    "10": 17,
+    "11": 12,
+    "12": 6,
+    "13": 22,
+    "14": 17,
+    "15": 27,
+    "16": 16,
+    "17": 14,
+    "18": 19,
+    "19": 17,
+    "20": 10,
+    "21": 20,
+    "22": 23,
+    "23": 18
+  },
+  "tightness_factor": 1.5,
+  "scale": "normal",
+  "simulation_horizon": 31.771,
+  "dynamic_events": [
+    {
+      "timestamp": 0.679,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 19,
+        "operations": [
+          [
+            {
+              "machine": 4,
+              "processing": 4.023
+            },
+            {
+              "machine": 1,
+              "processing": 3.043
+            },
+            {
+              "machine": 0,
+              "processing": 3.787
+            }
+          ],
+          [
+            {
+              "machine": 2,
+              "processing": 3.009
+            }
+          ],
+          [
+            {
+              "machine": 3,
+              "processing": 4.631
+            }
+          ]
+        ],
+        "release_time": 0.679,
+        "due_date": 17,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 1.11,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 17,
+        "operations": [
+          [
+            {
+              "machine": 2,
+              "processing": 2.273
+            }
+          ],
+          [
+            {
+              "machine": 3,
+              "processing": 5.077
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 1.57
+            },
+            {
+              "machine": 0,
+              "processing": 2.129
+            },
+            {
+              "machine": 4,
+              "processing": 1.975
+            }
+          ]
+        ],
+        "release_time": 1.11,
+        "due_date": 14,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 2.4,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 20,
+        "operations": [
+          [
+            {
+              "machine": 1,
+              "processing": 2.15
+            },
+            {
+              "machine": 0,
+              "processing": 2.116
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 2.857
+            },
+            {
+              "machine": 0,
+              "processing": 3.168
+            },
+            {
+              "machine": 3,
+              "processing": 3.538
+            }
+          ]
+        ],
+        "release_time": 2.4,
+        "due_date": 10,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 7.892,
+      "event_type": "Emergency_Job_Arrival",
+      "data": {
+        "job_id": 23,
+        "operations": [
+          [
+            {
+              "machine": 4,
+              "processing": 3.091
+            },
+            {
+              "machine": 3,
+              "processing": 2.831
+            },
+            {
+              "machine": 0,
+              "processing": 3.123
+            }
+          ],
+          [
+            {
+              "machine": 3,
+              "processing": 4.245
+            },
+            {
+              "machine": 0,
+              "processing": 4.231
+            },
+            {
+              "machine": 1,
+              "processing": 3.719
+            }
+          ],
+          [
+            {
+              "machine": 3,
+              "processing": 2.281
+            }
+          ],
+          [
+            {
+              "machine": 3,
+              "processing": 1.355
+            },
+            {
+              "machine": 2,
+              "processing": 1.162
+            },
+            {
+              "machine": 4,
+              "processing": 1.276
+            }
+          ]
+        ],
+        "release_time": 7.892,
+        "due_date": 18,
+        "is_emergency": true,
+        "tightness_factor": 1.045
+      }
+    },
+    {
+      "timestamp": 8.064,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 18,
+        "operations": [
+          [
+            {
+              "machine": 3,
+              "processing": 2.743
+            },
+            {
+              "machine": 0,
+              "processing": 2.639
+            },
+            {
+              "machine": 4,
+              "processing": 2.308
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 2.738
+            },
+            {
+              "machine": 4,
+              "processing": 3.115
+            },
+            {
+              "machine": 0,
+              "processing": 3.378
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 2.075
+            },
+            {
+              "machine": 3,
+              "processing": 2.305
+            },
+            {
+              "machine": 4,
+              "processing": 1.886
+            }
+          ]
+        ],
+        "release_time": 8.064,
+        "due_date": 19,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 9.881,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 16,
+        "operations": [
+          [
+            {
+              "machine": 4,
+              "processing": 2.079
+            },
+            {
+              "machine": 0,
+              "processing": 1.923
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 1.227
+            },
+            {
+              "machine": 0,
+              "processing": 0.9
+            },
+            {
+              "machine": 3,
+              "processing": 1.272
+            }
+          ],
+          [
+            {
+              "machine": 4,
+              "processing": 1.319
+            }
+          ]
+        ],
+        "release_time": 9.881,
+        "due_date": 16,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 10.194,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 15,
+        "operations": [
+          [
+            {
+              "machine": 2,
+              "processing": 3.763
+            }
+          ],
+          [
+            {
+              "machine": 2,
+              "processing": 1.749
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 3.07
+            },
+            {
+              "machine": 4,
+              "processing": 2.628
+            },
+            {
+              "machine": 0,
+              "processing": 3.034
+            }
+          ],
+          [
+            {
+              "machine": 0,
+              "processing": 3.868
+            },
+            {
+              "machine": 3,
+              "processing": 2.732
+            }
+          ]
+        ],
+        "release_time": 10.194,
+        "due_date": 27,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 10.465,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 22,
+        "operations": [
+          [
+            {
+              "machine": 2,
+              "processing": 1.955
+            }
+          ],
+          [
+            {
+              "machine": 0,
+              "processing": 2.387
+            }
+          ],
+          [
+            {
+              "machine": 0,
+              "processing": 1.992
+            },
+            {
+              "machine": 4,
+              "processing": 1.808
+            },
+            {
+              "machine": 1,
+              "processing": 1.8
+            }
+          ],
+          [
+            {
+              "machine": 3,
+              "processing": 2.894
+            },
+            {
+              "machine": 4,
+              "processing": 2.241
+            },
+            {
+              "machine": 1,
+              "processing": 3.281
+            }
+          ]
+        ],
+        "release_time": 10.465,
+        "due_date": 23,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 14.713,
+      "event_type": "Job_Arrival",
+      "data": {
+        "job_id": 21,
+        "operations": [
+          [
+            {
+              "machine": 0,
+              "processing": 2.571
+            }
+          ],
+          [
+            {
+              "machine": 1,
+              "processing": 1.544
+            },
+            {
+              "machine": 4,
+              "processing": 1.556
+            },
+            {
+              "machine": 2,
+              "processing": 1.651
+            }
+          ]
+        ],
+        "release_time": 14.713,
+        "due_date": 20,
+        "is_emergency": false
+      }
+    },
+    {
+      "timestamp": 21.655,
+      "event_type": "Machine_Breakdown",
+      "data": {
+        "machine_id": 0
+      }
+    },
+    {
+      "timestamp": 23.179,
+      "event_type": "Machine_Repair",
+      "data": {
+        "machine_id": 0
+      }
+    }
+  ],
+  "metadata": {
+    "seed": 260449,
+    "dynamic_job_count": 8,
+    "emergency_jobs_per_instance": 1,
+    "machine_failure_probability": 0.5,
+    "job_cancellation_probability": 0.0,
+    "notes": "Due dates follow TWK. Horizon follows max(1.2*makespan_lb, 1.1*max_initial_due_date)."
+  }
+}

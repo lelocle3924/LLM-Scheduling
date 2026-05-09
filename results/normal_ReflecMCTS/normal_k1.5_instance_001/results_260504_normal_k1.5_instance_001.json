@@ -1,0 +1,48 @@
+{
+  "session_name": "260504_normal_k1.5_instance_001",
+  "generated_at_utc": "2026-05-04T16:15:18Z",
+  "problem_summary": {
+    "machine_count": 3,
+    "job_count": 18,
+    "operation_count": 51,
+    "due_date_count": 38,
+    "dynamic_event_count": 14,
+    "metadata": {
+      "seed": 260448,
+      "dynamic_job_count": 9,
+      "emergency_jobs_per_instance": 1,
+      "machine_failure_probability": 0.5,
+      "job_cancellation_probability": 0.0,
+      "notes": "Due dates follow TWK. Horizon follows max(1.2*makespan_lb, 1.1*max_initial_due_date)."
+    }
+  },
+  "run_summary": {
+    "search_strategy": "MCTSSearch",
+    "final_tardiness": 723.407,
+    "total_tardiness": 723.407,
+    "max_tardiness": 46.784,
+    "completed_jobs": 28,
+    "total_jobs": 28,
+    "completion_ratio": 1.0,
+    "broken_machines": [],
+    "replay_buffer_size": 0,
+    "iteration_count": 81,
+    "total_runtime_seconds": 3516.058
+  },
+  "final_schedule": {
+    "tardiness": 723.407,
+    "final_tardiness": 723.407,
+    "total_tardiness": 723.407,
+    "max_tardiness": 46.784,
+    "makespan": 69.282,
+    "completed_jobs": 28,
+    "total_jobs": 28,
+    "machine_available_times": {
+      "0": 69.282,
+      "1": 66.784,
+      "2": 67.674
+    },
+    "broken_machines": [],
+    "search_strategy": "MCTSSearch"
+  }
+}

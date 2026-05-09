@@ -1,0 +1,168 @@
+[Time:   0.00] Action_Executed           | Job 2, Op 0 -> Mach 2
+[Time:   0.00] Action_Executed           | Job 15, Op 0 -> Mach 2
+[Time:   0.00] Action_Executed           | Job 8, Op 0 -> Mach 2
+[Time:   0.00] Action_Executed           | Job 14, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 10, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 12, Op 0 -> Mach 1
+[Time:   0.00] Action_Executed           | Job 9, Op 0 -> Mach 2
+[Time:   0.00] Action_Executed           | Job 4, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 3, Op 0 -> Mach 1
+[Time:   0.00] Action_Executed           | Job 1, Op 0 -> Mach 1
+[Time:   0.00] Action_Executed           | Job 13, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 0, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 6, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 5, Op 0 -> Mach 2
+[Time:   0.00] Action_Executed           | Job 11, Op 0 -> Mach 0
+[Time:   0.00] Action_Executed           | Job 7, Op 0 -> Mach 1
+[Time:   1.09] Job_Arrival               | {'job_id': 21, 'operations': [[{'machine': 2, 'processing': 5.54}, {'machine': 0, 'processing': 4.836}, {'machine': 1, 'processing': 5.045}], [{'machine': 1, 'processing': 2.141}, {'machine': 0, 'processing': 2.284}], [{'machine': 1, 'processing': 5.071}]], 'release_time': 1.088, 'due_date': 19, 'is_emergency': False}
+[Time:   1.09] Action_Executed           | Job 21, Op 0 -> Mach 0
+[Time:   1.89] Operation_Completion      | {'job_id': 2, 'op_id': 0, 'machine_id': 2}
+[Time:   1.89] Action_Executed           | Job 2, Op 1 -> Mach 0
+[Time:   1.97] Job_Arrival               | {'job_id': 17, 'operations': [[{'machine': 0, 'processing': 2.146}, {'machine': 1, 'processing': 1.947}, {'machine': 2, 'processing': 1.714}], [{'machine': 0, 'processing': 4.077}], [{'machine': 0, 'processing': 1.32}]], 'release_time': 1.972, 'due_date': 12, 'is_emergency': False}
+[Time:   1.97] Action_Executed           | Job 17, Op 0 -> Mach 2
+[Time:   2.48] Job_Arrival               | {'job_id': 18, 'operations': [[{'machine': 2, 'processing': 3.728}, {'machine': 1, 'processing': 4.833}, {'machine': 0, 'processing': 4.689}], [{'machine': 1, 'processing': 1.075}], [{'machine': 0, 'processing': 2.268}, {'machine': 1, 'processing': 3.127}, {'machine': 2, 'processing': 2.811}]], 'release_time': 2.475, 'due_date': 14, 'is_emergency': False}
+[Time:   2.48] Action_Executed           | Job 18, Op 0 -> Mach 2
+[Time:   2.66] Emergency_Job_Arrival     | {'job_id': 24, 'operations': [[{'machine': 1, 'processing': 3.068}, {'machine': 0, 'processing': 2.514}], [{'machine': 2, 'processing': 4.378}, {'machine': 1, 'processing': 4.139}]], 'release_time': 2.658, 'due_date': 10, 'is_emergency': True, 'tightness_factor': 1.076}
+[Time:   2.66] Action_Executed           | Job 24, Op 0 -> Mach 0
+[Time:   2.67] Operation_Completion      | {'job_id': 12, 'op_id': 0, 'machine_id': 1}
+[Time:   2.67] Action_Executed           | Job 12, Op 1 -> Mach 1
+[Time:   2.71] Job_Arrival               | {'job_id': 16, 'operations': [[{'machine': 1, 'processing': 3.694}], [{'machine': 0, 'processing': 4.128}, {'machine': 2, 'processing': 3.948}, {'machine': 1, 'processing': 3.872}], [{'machine': 1, 'processing': 2.346}, {'machine': 2, 'processing': 2.069}, {'machine': 0, 'processing': 2.294}], [{'machine': 2, 'processing': 1.778}, {'machine': 1, 'processing': 1.49}]], 'release_time': 2.706, 'due_date': 20, 'is_emergency': False}
+[Time:   2.71] Action_Executed           | Job 16, Op 0 -> Mach 1
+[Time:   2.85] Operation_Completion      | {'job_id': 15, 'op_id': 0, 'machine_id': 2}
+[Time:   2.85] Action_Executed           | Job 15, Op 1 -> Mach 2
+[Time:   4.52] Operation_Completion      | {'job_id': 14, 'op_id': 0, 'machine_id': 0}
+[Time:   4.52] Action_Executed           | Job 14, Op 1 -> Mach 2
+[Time:   5.52] Operation_Completion      | {'job_id': 8, 'op_id': 0, 'machine_id': 2}
+[Time:   5.52] Action_Executed           | Job 8, Op 1 -> Mach 0
+[Time:   6.98] Operation_Completion      | {'job_id': 3, 'op_id': 0, 'machine_id': 1}
+[Time:   6.98] Action_Executed           | Job 3, Op 1 -> Mach 0
+[Time:   8.16] Operation_Completion      | {'job_id': 10, 'op_id': 0, 'machine_id': 0}
+[Time:   8.16] Action_Executed           | Job 10, Op 1 -> Mach 1
+[Time:  10.18] Operation_Completion      | {'job_id': 9, 'op_id': 0, 'machine_id': 2}
+[Time:  10.18] Action_Executed           | Job 9, Op 1 -> Mach 2
+[Time:  10.21] Operation_Completion      | {'job_id': 4, 'op_id': 0, 'machine_id': 0}
+[Time:  10.21] Action_Executed           | Job 4, Op 1 -> Mach 0
+[Time:  10.35] Operation_Completion      | {'job_id': 1, 'op_id': 0, 'machine_id': 1}
+[Time:  10.35] Action_Executed           | Job 1, Op 1 -> Mach 1
+[Time:  11.40] Operation_Completion      | {'job_id': 13, 'op_id': 0, 'machine_id': 0}
+[Time:  11.40] Action_Executed           | Job 13, Op 1 -> Mach 1
+[Time:  11.64] Operation_Completion      | {'job_id': 5, 'op_id': 0, 'machine_id': 2}
+[Time:  11.64] Action_Executed           | Job 5, Op 1 -> Mach 0
+[Time:  12.36] Job_Arrival               | {'job_id': 19, 'operations': [[{'machine': 0, 'processing': 4.073}, {'machine': 2, 'processing': 4.551}], [{'machine': 2, 'processing': 3.482}, {'machine': 0, 'processing': 3.576}], [{'machine': 0, 'processing': 2.702}], [{'machine': 0, 'processing': 2.256}, {'machine': 1, 'processing': 1.976}]], 'release_time': 12.355, 'due_date': 31, 'is_emergency': False}
+[Time:  12.36] Action_Executed           | Job 19, Op 0 -> Mach 0
+[Time:  13.29] Operation_Completion      | {'job_id': 0, 'op_id': 0, 'machine_id': 0}
+[Time:  13.29] Action_Executed           | Job 0, Op 1 -> Mach 0
+[Time:  13.35] Operation_Completion      | {'job_id': 17, 'op_id': 0, 'machine_id': 2}
+[Time:  13.35] Action_Executed           | Job 17, Op 1 -> Mach 0
+[Time:  14.29] Job_Arrival               | {'job_id': 23, 'operations': [[{'machine': 1, 'processing': 3.827}, {'machine': 0, 'processing': 3.305}, {'machine': 2, 'processing': 2.971}], [{'machine': 0, 'processing': 1.15}, {'machine': 2, 'processing': 1.004}], [{'machine': 2, 'processing': 2.626}, {'machine': 0, 'processing': 1.947}, {'machine': 1, 'processing': 2.628}]], 'release_time': 14.289, 'due_date': 24, 'is_emergency': False}
+[Time:  14.29] Action_Executed           | Job 23, Op 0 -> Mach 2
+[Time:  14.53] Operation_Completion      | {'job_id': 6, 'op_id': 0, 'machine_id': 0}
+[Time:  14.53] Action_Executed           | Job 6, Op 1 -> Mach 1
+[Time:  14.88] Operation_Completion      | {'job_id': 7, 'op_id': 0, 'machine_id': 1}
+[Time:  14.88] Action_Executed           | Job 7, Op 1 -> Mach 1
+[Time:  16.90] Operation_Completion      | {'job_id': 11, 'op_id': 0, 'machine_id': 0}
+[Time:  16.90] Action_Executed           | Job 11, Op 1 -> Mach 0
+[Time:  17.08] Operation_Completion      | {'job_id': 18, 'op_id': 0, 'machine_id': 2}
+[Time:  17.08] Action_Executed           | Job 18, Op 1 -> Mach 1
+[Time:  18.75] Operation_Completion      | {'job_id': 12, 'op_id': 1, 'machine_id': 1}
+[Time:  18.80] Job_Arrival               | {'job_id': 22, 'operations': [[{'machine': 2, 'processing': 1.824}, {'machine': 1, 'processing': 1.854}, {'machine': 0, 'processing': 1.98}], [{'machine': 0, 'processing': 3.0}, {'machine': 2, 'processing': 2.811}], [{'machine': 2, 'processing': 3.592}], [{'machine': 2, 'processing': 3.709}, {'machine': 1, 'processing': 3.537}, {'machine': 0, 'processing': 3.52}]], 'release_time': 18.803, 'due_date': 36, 'is_emergency': False}
+[Time:  18.80] Action_Executed           | Job 22, Op 0 -> Mach 2
+[Time:  20.15] Operation_Completion      | {'job_id': 15, 'op_id': 1, 'machine_id': 2}
+[Time:  20.15] Action_Executed           | Job 15, Op 2 -> Mach 2
+[Time:  21.73] Operation_Completion      | {'job_id': 21, 'op_id': 0, 'machine_id': 0}
+[Time:  21.73] Action_Executed           | Job 21, Op 1 -> Mach 1
+[Time:  22.44] Operation_Completion      | {'job_id': 16, 'op_id': 0, 'machine_id': 1}
+[Time:  22.44] Action_Executed           | Job 16, Op 1 -> Mach 1
+[Time:  22.59] Operation_Completion      | {'job_id': 14, 'op_id': 1, 'machine_id': 2}
+[Time:  22.90] Operation_Completion      | {'job_id': 2, 'op_id': 1, 'machine_id': 0}
+[Time:  22.90] Action_Executed           | Job 2, Op 2 -> Mach 1
+[Time:  23.69] Job_Arrival               | {'job_id': 20, 'operations': [[{'machine': 1, 'processing': 4.198}, {'machine': 2, 'processing': 3.979}, {'machine': 0, 'processing': 4.627}], [{'machine': 0, 'processing': 3.871}]], 'release_time': 23.688, 'due_date': 35, 'is_emergency': False}
+[Time:  23.69] Action_Executed           | Job 20, Op 0 -> Mach 2
+[Time:  23.80] Operation_Completion      | {'job_id': 10, 'op_id': 1, 'machine_id': 1}
+[Time:  23.80] Action_Executed           | Job 10, Op 2 -> Mach 1
+[Time:  25.19] Operation_Completion      | {'job_id': 1, 'op_id': 1, 'machine_id': 1}
+[Time:  25.19] Action_Executed           | Job 1, Op 2 -> Mach 0
+[Time:  25.41] Operation_Completion      | {'job_id': 24, 'op_id': 0, 'machine_id': 0}
+[Time:  25.41] Action_Executed           | Job 24, Op 1 -> Mach 1
+[Time:  25.94] Operation_Completion      | {'job_id': 9, 'op_id': 1, 'machine_id': 2}
+[Time:  27.77] Machine_Breakdown         | {'machine_id': 2}
+[Time:  27.81] Operation_Completion      | {'job_id': 13, 'op_id': 1, 'machine_id': 1}
+[Time:  27.81] Action_Executed           | Job 13, Op 2 -> Mach 0
+[Time:  28.91] Operation_Completion      | {'job_id': 8, 'op_id': 1, 'machine_id': 0}
+[Time:  28.91] Operation_Completion      | {'job_id': 23, 'op_id': 0, 'machine_id': 2}
+[Time:  28.91] Action_Executed           | Job 23, Op 1 -> Mach 0
+[Time:  29.68] Machine_Repair            | {'machine_id': 2}
+[Time:  30.74] Operation_Completion      | {'job_id': 22, 'op_id': 0, 'machine_id': 2}
+[Time:  30.74] Action_Executed           | Job 22, Op 1 -> Mach 2
+[Time:  31.01] Operation_Completion      | {'job_id': 6, 'op_id': 1, 'machine_id': 1}
+[Time:  31.01] Action_Executed           | Job 6, Op 2 -> Mach 1
+[Time:  31.73] Operation_Completion      | {'job_id': 3, 'op_id': 1, 'machine_id': 0}
+[Time:  32.05] Operation_Completion      | {'job_id': 15, 'op_id': 2, 'machine_id': 2}
+[Time:  32.84] Operation_Completion      | {'job_id': 4, 'op_id': 1, 'machine_id': 0}
+[Time:  32.84] Action_Executed           | Job 4, Op 2 -> Mach 2
+[Time:  33.55] Operation_Completion      | {'job_id': 22, 'op_id': 1, 'machine_id': 2}
+[Time:  33.55] Action_Executed           | Job 22, Op 2 -> Mach 2
+[Time:  34.22] Operation_Completion      | {'job_id': 7, 'op_id': 1, 'machine_id': 1}
+[Time:  34.22] Action_Executed           | Job 7, Op 2 -> Mach 2
+[Time:  35.30] Operation_Completion      | {'job_id': 18, 'op_id': 1, 'machine_id': 1}
+[Time:  35.30] Action_Executed           | Job 18, Op 2 -> Mach 0
+[Time:  36.03] Operation_Completion      | {'job_id': 20, 'op_id': 0, 'machine_id': 2}
+[Time:  36.03] Action_Executed           | Job 20, Op 1 -> Mach 0
+[Time:  36.67] Operation_Completion      | {'job_id': 5, 'op_id': 1, 'machine_id': 0}
+[Time:  36.67] Action_Executed           | Job 5, Op 2 -> Mach 0
+[Time:  37.44] Operation_Completion      | {'job_id': 21, 'op_id': 1, 'machine_id': 1}
+[Time:  37.44] Action_Executed           | Job 21, Op 2 -> Mach 1
+[Time:  37.58] Operation_Completion      | {'job_id': 4, 'op_id': 2, 'machine_id': 2}
+[Time:  37.58] Action_Executed           | Job 4, Op 3 -> Mach 2
+[Time:  40.74] Operation_Completion      | {'job_id': 19, 'op_id': 0, 'machine_id': 0}
+[Time:  40.74] Action_Executed           | Job 19, Op 1 -> Mach 2
+[Time:  41.17] Operation_Completion      | {'job_id': 22, 'op_id': 2, 'machine_id': 2}
+[Time:  41.17] Action_Executed           | Job 22, Op 3 -> Mach 0
+[Time:  41.31] Operation_Completion      | {'job_id': 16, 'op_id': 1, 'machine_id': 1}
+[Time:  41.31] Action_Executed           | Job 16, Op 2 -> Mach 2
+[Time:  42.32] Operation_Completion      | {'job_id': 2, 'op_id': 2, 'machine_id': 1}
+[Time:  42.75] Operation_Completion      | {'job_id': 0, 'op_id': 1, 'machine_id': 0}
+[Time:  42.75] Action_Executed           | Job 0, Op 2 -> Mach 0
+[Time:  44.07] Machine_Breakdown         | {'machine_id': 1}
+[Time:  44.26] Operation_Completion      | {'job_id': 10, 'op_id': 2, 'machine_id': 1}
+[Time:  45.76] Operation_Completion      | {'job_id': 7, 'op_id': 2, 'machine_id': 2}
+[Time:  45.78] Machine_Repair            | {'machine_id': 1}
+[Time:  46.83] Operation_Completion      | {'job_id': 17, 'op_id': 1, 'machine_id': 0}
+[Time:  46.83] Action_Executed           | Job 17, Op 2 -> Mach 0
+[Time:  46.95] Operation_Completion      | {'job_id': 4, 'op_id': 3, 'machine_id': 2}
+[Time:  48.40] Operation_Completion      | {'job_id': 24, 'op_id': 1, 'machine_id': 1}
+[Time:  50.03] Operation_Completion      | {'job_id': 11, 'op_id': 1, 'machine_id': 0}
+[Time:  50.03] Action_Executed           | Job 11, Op 2 -> Mach 1
+[Time:  50.43] Operation_Completion      | {'job_id': 19, 'op_id': 1, 'machine_id': 2}
+[Time:  50.43] Action_Executed           | Job 19, Op 2 -> Mach 0
+[Time:  52.07] Operation_Completion      | {'job_id': 6, 'op_id': 2, 'machine_id': 1}
+[Time:  52.07] Action_Executed           | Job 6, Op 3 -> Mach 1
+[Time:  52.50] Operation_Completion      | {'job_id': 16, 'op_id': 2, 'machine_id': 2}
+[Time:  52.50] Action_Executed           | Job 16, Op 3 -> Mach 1
+[Time:  53.27] Operation_Completion      | {'job_id': 1, 'op_id': 2, 'machine_id': 0}
+[Time:  53.27] Action_Executed           | Job 1, Op 3 -> Mach 0
+[Time:  54.35] Operation_Completion      | {'job_id': 11, 'op_id': 2, 'machine_id': 1}
+[Time:  54.35] Action_Executed           | Job 11, Op 3 -> Mach 2
+[Time:  55.96] Operation_Completion      | {'job_id': 13, 'op_id': 2, 'machine_id': 0}
+[Time:  55.96] Action_Executed           | Job 13, Op 3 -> Mach 0
+[Time:  56.21] Operation_Completion      | {'job_id': 11, 'op_id': 3, 'machine_id': 2}
+[Time:  57.11] Operation_Completion      | {'job_id': 23, 'op_id': 1, 'machine_id': 0}
+[Time:  57.11] Action_Executed           | Job 23, Op 2 -> Mach 0
+[Time:  57.14] Operation_Completion      | {'job_id': 21, 'op_id': 2, 'machine_id': 1}
+[Time:  57.89] Operation_Completion      | {'job_id': 6, 'op_id': 3, 'machine_id': 1}
+[Time:  59.38] Operation_Completion      | {'job_id': 16, 'op_id': 3, 'machine_id': 1}
+[Time:  59.38] Operation_Completion      | {'job_id': 18, 'op_id': 2, 'machine_id': 0}
+[Time:  63.25] Operation_Completion      | {'job_id': 20, 'op_id': 1, 'machine_id': 0}
+[Time:  66.60] Operation_Completion      | {'job_id': 5, 'op_id': 2, 'machine_id': 0}
+[Time:  70.12] Operation_Completion      | {'job_id': 22, 'op_id': 3, 'machine_id': 0}
+[Time:  73.26] Operation_Completion      | {'job_id': 0, 'op_id': 2, 'machine_id': 0}
+[Time:  73.26] Action_Executed           | Job 0, Op 3 -> Mach 0
+[Time:  74.58] Operation_Completion      | {'job_id': 17, 'op_id': 2, 'machine_id': 0}
+[Time:  77.28] Operation_Completion      | {'job_id': 19, 'op_id': 2, 'machine_id': 0}
+[Time:  77.28] Action_Executed           | Job 19, Op 3 -> Mach 1
+[Time:  78.36] Operation_Completion      | {'job_id': 1, 'op_id': 3, 'machine_id': 0}
+[Time:  79.26] Operation_Completion      | {'job_id': 19, 'op_id': 3, 'machine_id': 1}
+[Time:  81.91] Operation_Completion      | {'job_id': 13, 'op_id': 3, 'machine_id': 0}
+[Time:  83.85] Operation_Completion      | {'job_id': 23, 'op_id': 2, 'machine_id': 0}
+[Time:  85.82] Operation_Completion      | {'job_id': 0, 'op_id': 3, 'machine_id': 0}
+[Time:  85.82] Simulation_Complete       | Total time: 0:00:00.418155

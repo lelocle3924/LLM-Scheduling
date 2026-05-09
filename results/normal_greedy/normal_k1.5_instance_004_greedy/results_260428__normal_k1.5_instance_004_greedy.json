@@ -1,0 +1,47 @@
+{
+  "session_name": "260428__normal_k1.5_instance_004_greedy",
+  "generated_at_utc": "2026-04-28T16:30:06Z",
+  "problem_summary": {
+    "machine_count": 3,
+    "job_count": 16,
+    "operation_count": 49,
+    "due_date_count": 34,
+    "dynamic_event_count": 13,
+    "metadata": {
+      "seed": 260451,
+      "dynamic_job_count": 8,
+      "emergency_jobs_per_instance": 1,
+      "machine_failure_probability": 0.5,
+      "job_cancellation_probability": 0.0,
+      "notes": "Due dates follow TWK. Horizon follows max(1.2*makespan_lb, 1.1*max_initial_due_date)."
+    }
+  },
+  "run_summary": {
+    "search_strategy": "GreedyMSTEDD",
+    "final_tardiness": 959.3939999999998,
+    "completed_jobs": 25,
+    "total_jobs": 25,
+    "completion_ratio": 1.0,
+    "broken_machines": [],
+    "replay_buffer_size": 0,
+    "iteration_count": 77,
+    "total_runtime_seconds": 0.414072,
+    "total_tardiness": 577.8599999999999,
+    "max_tardiness": 76.82
+  },
+  "final_schedule": {
+    "final_tardiness": 959.3939999999998,
+    "completed_jobs": 25,
+    "total_jobs": 25,
+    "machine_available_times": {
+      "0": 85.82099999999998,
+      "1": 79.25999999999998,
+      "2": 56.211
+    },
+    "broken_machines": [],
+    "search_strategy": "GreedyMSTEDD",
+    "replay_buffer_size": 0,
+    "total_tardiness": 577.8599999999999,
+    "max_tardiness": 76.82
+  }
+}

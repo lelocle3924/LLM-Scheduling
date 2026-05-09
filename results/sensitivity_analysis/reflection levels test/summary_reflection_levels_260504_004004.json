@@ -1,0 +1,62 @@
+{
+  "generated_at_utc": "2026-05-03T17:40:04Z",
+  "scenario_count": 8,
+  "scenarios": [
+    {
+      "index": 1,
+      "reflect_model_name": "google/gemini-3-flash-preview",
+      "reflection_levels": 0,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_flash_preview_L0",
+      "exit_code": 0
+    },
+    {
+      "index": 2,
+      "reflect_model_name": "google/gemini-3-flash-preview",
+      "reflection_levels": 1,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_flash_preview_L1",
+      "exit_code": 0
+    },
+    {
+      "index": 3,
+      "reflect_model_name": "google/gemini-3-flash-preview",
+      "reflection_levels": 2,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_flash_preview_L2",
+      "exit_code": 0
+    },
+    {
+      "index": 4,
+      "reflect_model_name": "google/gemini-3-flash-preview",
+      "reflection_levels": 4,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_flash_preview_L4",
+      "exit_code": 0
+    },
+    {
+      "index": 5,
+      "reflect_model_name": "google/gemini-3.1-pro-preview",
+      "reflection_levels": 0,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_1_pro_preview_L0",
+      "exit_code": 0
+    },
+    {
+      "index": 6,
+      "reflect_model_name": "google/gemini-3.1-pro-preview",
+      "reflection_levels": 1,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_1_pro_preview_L1",
+      "exit_code": 0
+    },
+    {
+      "index": 7,
+      "reflect_model_name": "google/gemini-3.1-pro-preview",
+      "reflection_levels": 2,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_1_pro_preview_L2",
+      "exit_code": 0
+    },
+    {
+      "index": 8,
+      "reflect_model_name": "google/gemini-3.1-pro-preview",
+      "reflection_levels": 4,
+      "session_name": "260504_004004_reflectlvl_google_gemini_3_1_pro_preview_L4",
+      "exit_code": 0
+    }
+  ]
+}

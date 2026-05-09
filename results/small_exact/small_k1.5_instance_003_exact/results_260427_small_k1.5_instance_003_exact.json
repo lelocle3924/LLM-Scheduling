@@ -1,0 +1,27 @@
+{
+  "session_name": "260427_small_k1.5_instance_003_exact",
+  "generated_at_utc": "2026-04-27T21:47:57Z",
+  "instance_file": "d:\\Uni Material\\THESIS\\Code_thesis\\test_unified_260427_tardiness\\problem_data\\small_tardiness_pool\\small_k1.5_instance_003.json",
+  "objective": {
+    "type": "total",
+    "label": "Total Tardiness",
+    "value": 0.236
+  },
+  "solver_stats": {
+    "status": "OPTIMAL",
+    "time_taken_seconds": 0.09686,
+    "num_branches": 24,
+    "time_limit_seconds": 600.0
+  },
+  "problem_summary": {
+    "job_count": 6,
+    "machine_count": 5,
+    "operation_count": 16,
+    "dynamic_event_count": 3,
+    "removed_job_cancellations": 0
+  },
+  "schedule_summary": {
+    "scheduled_operation_count": 16,
+    "machine_downtime_window_count": 0
+  }
+}

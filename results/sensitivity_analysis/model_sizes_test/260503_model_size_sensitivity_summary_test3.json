@@ -1,0 +1,92 @@
+{
+  "generated_at_epoch": 1777822095.3455694,
+  "elapsed_seconds": 488.6104793548584,
+  "problem_file": "problem_data/small/small_k1.5_instance_001.json",
+  "mcts_settings": {
+    "max_iterations": 45,
+    "min_iterations": 10,
+    "c_param_max": 3.0,
+    "c_param_min": 2.0,
+    "prior_mode": "llm"
+  },
+  "fixed_settings": {
+    "results_folder_root": "results/sensitivity_analysis/model_sizes_test-3",
+    "search_strategy": "MCTSSearch",
+    "rollout_policy": "random",
+    "use_reflection": false
+  },
+  "runs": [
+    {
+      "label": "Gemini 3 Flash",
+      "prior_model_name": "google/gemini-3-flash-preview",
+      "session_name": "260503_model_size_test3_gemini_3_flash",
+      "results_folder": "results/sensitivity_analysis/model_sizes_test-3/gemini_3_flash",
+      "runtime_seconds": 393.267,
+      "result_file": "results/sensitivity_analysis/model_sizes_test-3/gemini_3_flash/260503_model_size_test3_gemini_3_flash/results_260503_model_size_test3_gemini_3_flash.json",
+      "final_tardiness": 26.875,
+      "total_tardiness": 26.875,
+      "max_tardiness": 9.204,
+      "iteration_count": 19
+    },
+    {
+      "label": "Gemini 3.1 Pro",
+      "prior_model_name": "google/gemini-3.1-pro-preview",
+      "session_name": "260503_model_size_test3_gemini_3_pro",
+      "results_folder": "results/sensitivity_analysis/model_sizes_test-3/gemini_3_pro",
+      "runtime_seconds": 674.208,
+      "result_file": "results/sensitivity_analysis/model_sizes_test-3/gemini_3_pro/260503_model_size_test3_gemini_3_pro/results_260503_model_size_test3_gemini_3_pro.json",
+      "final_tardiness": 26.202,
+      "total_tardiness": 26.202,
+      "max_tardiness": 7.142,
+      "iteration_count": 19
+    },
+    {
+      "label": "Gemini 3.1 Flash Lite",
+      "prior_model_name": "google/gemini-3.1-flash-lite-preview",
+      "session_name": "260503_model_size_test3_gemini_3.1_flash_lite",
+      "results_folder": "results/sensitivity_analysis/model_sizes_test-3/gemini_3.1_flash_lite",
+      "runtime_seconds": 345.15,
+      "result_file": "results/sensitivity_analysis/model_sizes_test-3/gemini_3.1_flash_lite/260503_model_size_test3_gemini_3.1_flash_lite/results_260503_model_size_test3_gemini_3.1_flash_lite.json",
+      "final_tardiness": 27.549,
+      "total_tardiness": 27.549,
+      "max_tardiness": 9.204,
+      "iteration_count": 19
+    },
+    {
+      "label": "Gemma 4 26B",
+      "prior_model_name": "google/gemma-4-26b-a4b-it",
+      "session_name": "260503_model_size_test3_gemma_4_26B",
+      "results_folder": "results/sensitivity_analysis/model_sizes_test-3/gemma_4_26B",
+      "runtime_seconds": 4508.802,
+      "result_file": "results/sensitivity_analysis/model_sizes_test-3/gemma_4_26B/260503_model_size_test3_gemma_4_26B/results_260503_model_size_test3_gemma_4_26B.json",
+      "final_tardiness": 27.549,
+      "total_tardiness": 27.549,
+      "max_tardiness": 9.204,
+      "iteration_count": 19
+    },
+    {
+      "label": "GPT OSS 120B",
+      "prior_model_name": "openai/gpt-oss-120b",
+      "session_name": "260503_model_size_test3_oss_120",
+      "results_folder": "results/sensitivity_analysis/model_sizes_test-3/oss_120",
+      "runtime_seconds": 488.592,
+      "result_file": "results/sensitivity_analysis/model_sizes_test-3/oss_120/260503_model_size_test3_oss_120/results_260503_model_size_test3_oss_120.json",
+      "final_tardiness": 26.875,
+      "total_tardiness": 26.875,
+      "max_tardiness": 9.204,
+      "iteration_count": 19
+    },
+    {
+      "label": "GPT OSS 20B",
+      "prior_model_name": "openai/gpt-oss-20b",
+      "session_name": "260503_model_size_test3_oss_20",
+      "results_folder": "results/sensitivity_analysis/model_sizes_test-3/oss_20",
+      "runtime_seconds": 394.664,
+      "result_file": "results/sensitivity_analysis/model_sizes_test-3/oss_20/260503_model_size_test3_oss_20/results_260503_model_size_test3_oss_20.json",
+      "final_tardiness": 27.553,
+      "total_tardiness": 27.553,
+      "max_tardiness": 7.335,
+      "iteration_count": 19
+    }
+  ]
+}

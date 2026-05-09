@@ -1,0 +1,107 @@
+# LLM Call: Action_Policy
+
+| Field | Value |
+|-------|-------|
+| Iteration | 15 |
+| Model | `openrouter:openai/gpt-oss-20b` |
+| Latency | 2.338s |
+
+---
+
+## Prompt Sent
+
+You are an expert scheduler in a dynamic factory. Your goal is to make smart,
+forward-looking decisions to keep the factory running smoothly and finish all
+jobs with minimum tardiness.
+# Primary Objective
+Choose the *single best* operation-machine pair to schedule right now to minimize Total/Maximum Tardiness by strictly monitoring job due dates and slack times.
+# Key Information to Consider
+1. **Current Timestamp**: 8.081
+2. **Machine States**:
+- 'status': Is the machine available, busy or broken?
+- 'available_from': When will the machine be free for another operation?
+- 'contention': How many *future* operations need this machine? A high contention machine is a future bottleneck. **Avoid occupying a high-contention machine with a non-critical or flexible task.**
+- 'Queue': Which other operations are currently waiting in line at this machine?
+3. **Ready Operations**:
+- 'est': Earliest start time - When can this operation *actually* start?
+- 'min_pt': Shortest possible processing time.
+- 'rem_work': How much work is left for this job? 
+- 'due_date': The committed due date for the job.
+- 'slack': due_date - current_time - rem_work. Negative slack means the job is mathematically guaranteed to be tardy and must be treated as urgent.
+- 'is_critical': True/False - Does this job have the longest remaining sequence of work? If True, delaying it directly delays the entire factory.
+- 'flexibility': How many machine options does this operation have?
+- '[EMERGENCY]': These jobs MUST be scheduled before any non-emergency job.
+
+Machine States:
+- Machine 0: Processing Job 3 (Op 1), Available from T=9.9, Contention: 1
+- Machine 1: Processing Job 4 (Op 2), Available from T=9.5, Contention: 0
+- Machine 2: Available, Available from T=8.1, Contention: 2
+- Machine 3: Available, Available from T=8.1, Contention: 1
+[5]
+**Banned Behaviors:**
+- DO NOT route J1O0 or J2O0 to M3 if J0O0 is already assigned there. Serialization on M3 mimics M0 bottleneck failure.
+- DO NOT leave M1 idle at T=0. M1 needed for J1O0 to prevent downstream J1O1 tardiness.
+- DO NOT send J0O0 to M0. Reserve M0 for J2 or later operations to minimize total makespan.
+
+**Bottleneck Focus:**
+- M3 is now the critical immediate gateway. Must not exceed 1 job depth.
+- M1 capacity is time-sensitive; start J1O0 immediately to unlock M3/M0 for O1 tasks.
+
+**Current Routing Priorities:**
+- J0O0 -> M3 [Action Validated].
+- J1O0 -> M1 [Immediate].
+- J2O0 -> M0 [Parallel Load].
+- If M3 busy, J0O0 -> M2.
+Ready Operations:
+- Job 5, Op 2: est=8.081, min_pt=2.661, rem_work=3.802, due_date=9.000, slack=-2.883, flexibility=2, is_critical=True, [EMERGENCY]=True
+
+
+# Candidate Actions (only these are allowed)
+'''json
+[
+  {
+    "job": 5,
+    "op": 2,
+    "machine": 2,
+    "processing_time": 2.661,
+    "wait_time": 0.0,
+    "due_date": 9.0,
+    "slack": -2.883,
+    "is_critical": true
+  },
+  {
+    "job": 5,
+    "op": 2,
+    "machine": 0,
+    "processing_time": 2.758,
+    "wait_time": 1.855,
+    "due_date": 9.0,
+    "slack": -4.835,
+    "is_critical": true
+  }
+]
+'''
+# Task: Make a Decision
+Think step-by-step. Your reasoning should balance these factors:
+1. **Urgency**: Handle '[EMERGENCY]' jobs first.
+2. **Due-Date Risk**: Prioritize jobs with the earliest due dates and the smallest slack.
+3. **Negative Slack Alerts**: If slack is negative, treat the job as an immediate scheduling emergency to reduce unavoidable tardiness growth. Balance the need to process it quickly against the risk of delaying other on-time jobs (The Triage Dilemma).
+4. **Constraints**: An operation with low 'flexibility' (e.g., 1) is a constraint. Clearing it might unlock more options.
+5. **Bottlenecks**: Is the machine you are choosing a high-‘contention‘ resource? 
+If so, is this operation important enough to occupy it? 
+Could a more flexible operation go to a less contended machine?
+6. **Flow**: Does scheduling a long-'rem_work' job now prevent severe tardiness later?
+Or is it better to clear a quick job to speed up the flow?
+Based on your analysis, provide your final decision in JSON format.
+
+'''json
+{{"job": <int>, "op": <int>, "machine": <int>}}
+'''
+
+
+
+---
+
+## LLM Response
+
+{"job":5,"op":2,"machine":2}

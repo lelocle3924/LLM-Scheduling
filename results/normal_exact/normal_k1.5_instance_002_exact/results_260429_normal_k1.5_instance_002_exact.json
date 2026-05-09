@@ -1,0 +1,31 @@
+{
+  "session_name": "260429_normal_k1.5_instance_002_exact",
+  "generated_at_utc": "2026-04-29T21:47:01Z",
+  "instance_file": "d:\\Uni Material\\THESIS\\Code_thesis\\test_unified_260427_tardiness\\problem_data\\normal 1\\normal_k1.5_instance_002.json",
+  "objective": {
+    "type": "total",
+    "label": "Total Tardiness",
+    "value": 201.667,
+    "total_tardiness": 201.66700000000003,
+    "max_tardiness": 25.676000000000002
+  },
+  "solver_stats": {
+    "status": "FEASIBLE",
+    "time_taken_seconds": 1884.9420186000002,
+    "num_branches": 476,
+    "time_limit_seconds": 1800.0
+  },
+  "problem_summary": {
+    "job_count": 24,
+    "machine_count": 5,
+    "operation_count": 76,
+    "dynamic_event_count": 11,
+    "removed_job_cancellations": 0
+  },
+  "schedule_summary": {
+    "scheduled_operation_count": 76,
+    "machine_downtime_window_count": 1,
+    "total_tardiness": 201.66700000000003,
+    "max_tardiness": 25.676000000000002
+  }
+}

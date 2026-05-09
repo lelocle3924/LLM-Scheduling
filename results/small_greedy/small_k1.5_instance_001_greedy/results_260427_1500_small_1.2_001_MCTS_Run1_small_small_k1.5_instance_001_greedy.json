@@ -1,0 +1,43 @@
+{
+  "session_name": "260427_1500_small_1.2_001_MCTS_Run1_small_small_k1.5_instance_001_greedy",
+  "generated_at_utc": "2026-04-27T16:15:15Z",
+  "problem_summary": {
+    "machine_count": 3,
+    "job_count": 4,
+    "operation_count": 11,
+    "due_date_count": 10,
+    "dynamic_event_count": 5,
+    "metadata": {
+      "seed": 260448,
+      "dynamic_job_count": 2,
+      "emergency_jobs_per_instance": 1,
+      "machine_failure_probability": 0.3,
+      "job_cancellation_probability": 0.2,
+      "notes": "Due dates follow TWK. Horizon follows max(1.2*makespan_lb, 1.1*max_initial_due_date)."
+    }
+  },
+  "run_summary": {
+    "search_strategy": "GreedyMSTEDD",
+    "final_tardiness": 61.31599999999999,
+    "completed_jobs": 7,
+    "total_jobs": 7,
+    "completion_ratio": 1.0,
+    "broken_machines": [],
+    "replay_buffer_size": 0,
+    "iteration_count": 19,
+    "total_runtime_seconds": 0.023064
+  },
+  "final_schedule": {
+    "final_tardiness": 61.31599999999999,
+    "completed_jobs": 7,
+    "total_jobs": 7,
+    "machine_available_times": {
+      "0": 24.498999999999995,
+      "1": 6.97,
+      "2": 21.659999999999997
+    },
+    "broken_machines": [],
+    "search_strategy": "GreedyMSTEDD",
+    "replay_buffer_size": 0
+  }
+}
